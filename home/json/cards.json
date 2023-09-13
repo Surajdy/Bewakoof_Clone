@@ -1,0 +1,40 @@
+{
+     "cardData": [
+       {
+         "image_url": "https://images.bewakoof.com/t1080/peace-out-astronaut-half-sleeve-t-shirt-navy-blue-302573-1655748317-1.jpg",
+         "description": "Men's Blue Peace Out Astronaut Graphic Printed T-shirt",
+         "discountedPrice": 399,
+         "actualPrice": 999,
+         "discountPercent": "60% OFF"
+       },
+       {
+         "image_url": "https://images.bewakoof.com/t1080/men-s-black-across-the-spiderverse-graphic-printed-oversized-t-shirt-599566-1687765259-1.jpg",
+         "description": "Men's Black Across The Spiderverse Graphic Printed Oversized T-shirt",
+         "discountedPrice": 699,
+         "actualPrice": 1299,
+         "discountPercent": "60% OFF"
+       },
+       {
+         "image_url": "https://images.bewakoof.com/t1080/men-s-black-t-shirt-106-1665669012-1.jpg",
+         "description": "Men's Blue Game Over Minimal Typography T-shirt",
+         "discountedPrice": 349,
+         "actualPrice": 999,
+         "discountPercent": "65% OFF"
+       },
+       {
+         "image_url": "https://images.bewakoof.com/t1080/game-over-minimal-half-sleeve-t-shirt-navy-blue-305202-1655748497-1.jpg",
+         "description": "Men's Blue Game Over Minimal Typography T-shirt",
+         "discountedPrice": 449,
+         "actualPrice": 1099,
+         "discountPercent": "59% OFF"
+       },
+       {
+         "image_url": "https://images.bewakoof.com/t1080/create-good-stories-half-sleeve-t-shirt-black-283013-1655749405-1.jpg",
+         "description": "Men's Black Create Good Stories Typography T-shirt",
+         "discountedPrice": 449,
+         "actualPrice": 1099,
+         "discountPercent": "59% OFF"
+       }
+     ]
+   }
+   
