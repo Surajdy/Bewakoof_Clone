@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header{
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+    .navbar{
+        padding: 7px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        /* border: solid; */
+         
+        
+    }
+    .clearFix{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    .logo{
+        margin-left: 300px;
+        /* border: solid; */
+        /* width: 100%; */
+        flex-wrap: wrap;
+        transition: left 0.5s ease-in-out;
+        cursor: pointer;
+    }
+    
+    .emptyPage{
+        margin: 0 auto 10px;
+        text-align: center;
+        font-size: 18px;
+        min-height: 200px;
+        max-width: 430px;
+        line-height: normal;
+    }
+     .blueText {
+    text-decoration: underline!important;
+    color: #51cccc;
+}
+    .success {
+    color: #51cccc!important;
+    }
+    .emptylisting {
+    background: #f8f8f8;
+    margin: 35px auto 10px;
+    text-align: center;
+    color: rgba(0,0,0,.8);
+    min-height: 200px;
+    max-width: 430px;
+    line-height: normal;
+}
+.emptylisting .searchCategories.searchCategoriesTitle {
+    /* padding-right: 30px; */
+    padding-top: 5px;
+}
+.emptylisting .searchCategories {
+    vertical-align: top;
+    font-size: 14px;
+    text-align: left;
+}
+    @media(max-width:768px){
+        .navbar{
+            display: none;
+        }
+        .header{
+            display: none;
+        }
+    }
+    @media (max-width: 1600px){
+        .logo{
+            margin-left: 20px;
+            
+        }
+        
+    }
+    a {
+    text-decoration: none;
+  }
+
+
+td {
+    display: table-cell;
+    /* vertical-align: inherit; */
+    padding: 10px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: ;
+}
+table {
+    /* border-collapse: separate; */
+    text-indent: initial;
+    /* border-spacing: 2px; */
+}
+</style>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" style="height: 30px; padding: 2px; width: 100;">
+            </div>
+        </div>
+    </div>
+    <div class="emptyPage" style="padding: 30px 0px 0px;">
+        <img src="https://images.bewakoof.com/images/doodles/empty-cart-page-doodle.png" title="Empty Cart Page Doodle" alt="Empty Cart Page Doodle" width="150px">
+    </div>
+    <center>
+        <div class="clearFix">
+       
+            Nothing in the bag
+           
+        </div>
+        <div class="clearFix">
+       
+            <a class="success" href="#" style="padding: 10px; border: 2px solid; border-radius: 5px; display: inline-block; margin-top: 15px;">Continue Shopping</a>
+           
+        </div>
+    </center>
+    <div class="emptylisting" style="background-color: rgb(255, 255, 255);">
+        <hr style="height: 1px; border-width: 1px 0px 0px; border-top-style: solid; border-right-style: initial; border-bottom-style: initial; border-left-style: initial; border-top-color: rgb(204, 204, 204); border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image: initial;">
+        <div style="margin: 20px auto;">
+            <span id="smallText">You could try one of these categories:</span>
+        </div>
+        <table>
+            <tbody>
+                <tr>
+                    <td>Men</td>
+                    
+                    <td class="searchCategories col-xs-6 noPd">
+                        <a class="blueText" href="/top-wear-for-men">Topwear</a>
+                    </td>
+
+                
+                    <td class="searchCategories col-xs-6 noPd">
+                        <a class="blueText" href="/men-bottom-wear-collection">Bottomwear</a>
+                    </td>
+                    <tr>
+                        <td></td>
+                        
+                        <td class="searchCategories col-xs-6 noPd">
+                            <a class="blueText" href="/footwear">Footwear</a>
+                        </td>
+                        <td class="searchCategories col-xs-6 noPd">
+                            <a class="blueText" href="/bestsellers-for-men">Bestsellers</a>
+                        </td>
+                    </tr>
+                  
+                </tr>
+               
+                <tr>
+                    <td>Women</td>
+                    <td class="searchCategories col-xs-6 noPd">
+                        <a class="blueText" href="/top-wear-for-women">Topwear</a>
+                    </td>
+                    <td class="searchCategories col-xs-6 noPd">
+                        <a class="blueText" href="/bottom-wear-for-women">Bottomwear</a>
+                    </td>
+                    <tr>
+                        <td></td>
+                        <td class="searchCategories col-xs-6 noPd">
+                            <a class="blueText" href="/bestsellers-for-women">Bestsellers</a>
+                        </td>
+                    </tr>
+                   
+                </tr>
+                <tr>
+                    <td>Mobile Covers</td>
+                    <td class="searchCategories col-xs-6 noPd">
+                        <a class="blueText" href="/mobile-covers-india">All Mobile Covers</a>
+                    </td>
+                </tr>
+               
+            </tbody>
+        </table>
+        
+        
+        
+        
+            </div>
+        </div>
+    </div>
+  
+    <div style="margin-top: 0px; text-align: center; background: rgb(251, 251, 251);">
+        <img src="https://images.bewakoof.com/web/secure-payments-image.png" title="Secure Payments" alt="Secure Payments" style="max-width: 257px; width: 100%; margin: 10px auto;">
+    </div>
+       
+       
+   
+</body>
+</html>

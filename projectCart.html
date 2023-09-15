@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    .header{
+        width: 100%;
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+    .navbar{
+        padding: 7px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        /* border: solid; */   
+        
+    }
+    .logo{
+        margin-left: 300px;
+        /* border: solid; */
+        /* width: 100%; */
+        flex-wrap: wrap;
+        transition: left 0.5s ease-in-out;
+        cursor: pointer;
+    }
+    .cartDeskHead{
+        margin-top:20px ;
+        margin-bottom: 20px;
+        margin-left: 310px;
+        transition: left 0.5s ease-in-out;
+    }
+    #leftSection{
+        width:60%;
+        /* padding-left: 300px; */
+    }
+    .df-inner{
+            margin-left: 310px;
+            transition: left 0.5s ease-in-out;
+        }
+       .container{
+        display: flex;
+        flex-direction: column;
+        border: solid;
+        align-items: flex-end;
+        gap: 30px;
+       } 
+      .cards{
+        width: 688px;
+        height: 280px;
+        border: solid;
+        margin-left: 310px;
+        border-radius: 10px;
+      }  
+        
+    #rightSection{
+        width: 35%;
+        padding: 20px;
+    }
+    @media(max-width:768px){
+        .navbar{
+            display: none;
+        }
+        .header{
+            display: none;
+        }
+         .df-inner {
+      text-align: left; /* Shift content to the left when screen size is 768px or smaller */
+    }
+    }
+    @media (max-width: 1600px){
+        .logo{
+            margin-left: 20px;
+            
+        }
+        .df-inner{
+            margin-left: 20px;
+        }
+        .cartDeskHead{
+        margin-top:20px ;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        transition: left 0.5s ease-in-out;
+    }
+    .cards{
+        width: 500px;
+        height: 400px;
+        border: solid;
+        margin-left: 20px;
+        padding: 20px;
+      } 
+      .productPriceDetails {
+    margin-bottom: 4px;
+    /* text-align: end; */
+}
+        
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg" alt="" style="height: 30px; padding: 2px; width: 100;">
+            </div>
+        </div>
+    </div>
+    <div id="leftSection">
+        <div class="cartDeskHead"><span class="qty"><b>My Bag </b>4 item(s)</span></div>
+        <div class="df-inner" style="background-color: rgb(252, 255, 238); height: 50px;">
+            <img src="https://images.bewakoof.com/web/Red-truck.png" alt="truck" class="df-img" style="width: 19px; height: 12px; animation-duration: 2s; display: inline-block; vertical-align: middle; ">
+            <p style="font-size: 12px; color: black; font-family: Arial, Helvetica, sans-serif; display: inline-block; vertical-align: middle; margin-left: 5px;">Yay! You get FREE delivery on this order</p>
+        </div>
+        <div class="container">
+            <div class="cards">
+                <p style="font-family: sans-serif; padding-left: 20px; padding-top: 20px; line-height: 0%;">
+                    Leader Full Sleeve T-Shirt Black
+                </p>
+                <!-- <div>
+                    <div>
+                        <h2 style="padding-left: 20px; line-height: 0%;">₹299</h2> 599
+                    </div> 
+                </div> -->
+                <div style="padding-left: 20px;"><span><b>₹</b><b>299</b></span><span class="cartProductMrp">₹599</span></div>
+                <div style="color: green; padding-left: 20px; line-height: 0rem;">
+                    <p>You saved ₹300!</p>
+                </div>
+                <label for="size">Size:</label>
+                <select name="size" id="size">Size:
+                    <option value="small">S</option>
+                    <option value="large">L</option>
+                    <option value="medium">M</option>
+                    <option value="veryLarge">XL</option>
+                    <option value="veryVerylarge">XXL</option>
+                </select>
+            </div>
+            <div class="cards">
+                
+            </div>
+            <div class="cards">
+                
+            </div>
+            <div class="cards">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>
