@@ -1,0 +1,18 @@
+@media screen and (max-width: 990px) {
+     .header-section-for-all .topBarWrapperHeader{
+          visibility: hidden
+     }
+     .header-section-for-all .main-bar-wrapper-header {
+          justify-content: space-evenly;
+          height: 52px;
+          align-content: center;
+          border-bottom: 1.5px solid #CCC;
+          align-items: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          /* padding: 0px 15%; */
+          background-color: white;
+     }
+}

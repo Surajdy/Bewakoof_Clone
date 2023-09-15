@@ -11,6 +11,11 @@
      --h3-p-name: #4f5362;
      --p-green: #00B852;
      --text-teal: #42A2A2;
+     --link-color: #FFFFFFE6;
+     --footer-color: #181818;
+     --success-text-color: #51CCCC;
+     --mega-blk: #494949;
+     --mega-link-blk: #7f7f7f;
 }
 
 /* =========== Swiper Wrapper Button Design ===============  */
@@ -57,12 +62,23 @@ i {
 
 /* =========== Separator ============== */
 .separator {
-     margin: 6% 0px 6% 2%
+     margin: 6% 0px 6% 0%
+}
+
+.separator2 {
+     width: 1px;
+     height: 100vh;
+     background-color: #ccc;
+     margin: 10px 0;
 }
 
 /* ===========  Display Property */
 .d-flex {
      display: flex;
+}
+
+.d-block {
+     display: block;
 }
 
 .grid2-1fr {
@@ -84,14 +100,34 @@ i {
      justify-content: space-between;
 }
 
+.d-flex-around {
+     justify-content: space-around;
+}
+
+.d-flex-evenly {
+     justify-content: space-evenly;
+}
+
+.d-flex-jcenter {
+     justify-content: center;
+}
+
 .gap-r0-c5 {
      gap: 0px 5px
+}
+
+.flex-col {
+     flex-direction: column;
 }
 
 /* ============== Font Transitions ===============  */
 
 .uppercase {
      text-transform: uppercase;
+}
+
+.text-transform-none {
+     text-transform: none;
 }
 
 .underline-text {
@@ -108,8 +144,23 @@ i {
      margin: auto;
 }
 
+.width40px {
+     height: 40px;
+     width: 40px;
+}
+
 .img100px {
      width: 100%;
+     background-size: cover;
+}
+
+.img30per {
+     width: 30%;
+     background-size: cover;
+}
+
+.img50px {
+     width: 50%;
      background-size: cover;
 }
 
@@ -119,6 +170,14 @@ i {
 
 .text-align-center {
      text-align: center;
+}
+
+.text-align-justify {
+     text-align: justify;
+}
+
+.text-align-strat {
+     align-items: start;
 }
 
 /* ================= Colors =============== */
@@ -140,6 +199,14 @@ i {
 
 .color-teal {
      color: #42A2A2;
+}
+
+.mega-blk {
+     color: var(--mega-blk);
+}
+
+.mega-link {
+     color: var(--mega-link-blk);
 }
 
 /* ========== Fonts Utils ============== */
@@ -173,8 +240,32 @@ i {
      margin-left: 5px;
 }
 
+.mr-20px {
+     margin: 0px 0px 1.25rem;
+}
+
+.mr-12px {
+     margin: 0px 0px .75rem;
+}
+
 .top4px {
      margin-top: 4px;
+}
+
+.top3rem {
+     margin-top: 3rem;
+}
+
+.top3px {
+     margin-top: 3px;
+}
+
+.tb-mar10px {
+     margin: 10px 0px;
+}
+
+.tb-mar10px {
+     margin: 10px 0px;
 }
 
 .right8px {
@@ -189,8 +280,79 @@ i {
      margin: 0.625rem 0px;
 }
 
+.mr-2rem {
+     margin: 2rem 0px;
+}
+
 .mr-30rem {
      padding: 30px 0px;
 }
 
+.pd-15px {
+     padding: 15px;
+}
+
+.pd-10-15px {
+     padding: 10px 15px;
+}
+
+.pd-0-30-0-0px {
+     padding: 0px 30px 0px 0px;
+}
+
+.defaultpm {
+     margin: 0;
+     padding: 0;
+}
+
 /* Colors Class */
+
+.link-color {
+     color: var(--link-color);
+}
+
+.success-color {
+     color: var(--success-text-color);
+}
+
+.fa-brands {
+     color: var(--link-color);
+     font-size: 17px;
+     padding: 2px;
+}
+
+.fa-solid {
+     color: var(--link-color);
+     font-size: 10px;
+     padding: 2px;
+}
+
+.witdh15_813rem {
+     width: 15.813rem;
+}
+
+.witdh11_813rem {
+     width: 16.5rem;
+}
+
+.witdh285px {
+     width: 17.813rem;
+}
+
+.width224px {
+     width: 224.6px;
+}
+
+span {
+     text-transform: uppercase
+}
+
+.debug {
+     border: 2px solid blue;
+}
+
+.position-abs {
+     position: absolute;
+     top: 0;
+     right: -120%;
+}

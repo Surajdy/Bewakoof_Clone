@@ -202,7 +202,7 @@ fetch('/home/json/small-card.json')
 
       image.src = ele.image_url;
       card.append(image,productDetails);
-      console.log(card)
+     
       sellersCard.append(card)
       
     })
