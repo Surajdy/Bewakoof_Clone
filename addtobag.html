@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/Addtobag.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+  </head>
+  <body>
+    <!-- ----------------------------  -->
+    <!--  ----- Navbar Bar Start ----- -->
+    <div id="navigation">
+      <!-- Navbar Top -->
+      <div class="top-nav">
+        <!-- Navbar Top-left -->
+        <div class="top-left-nav">
+          <a href="">Offers</a>
+          <a href="">Fanbook</a>
+          <a href="">Download App</a>
+          <a href="">TriBe Membership</a>
+        </div>
+        <!-- Navbar Top-Right -->
+        <div class="top-right-nav">
+          <a href="">Contact Us</a>
+          <a href="">Track Order</a>
+        </div>
+      </div>
+
+      <!-- Navbar Main-->
+      <div class="main-nav">
+        <div class="main-left-nav">
+          <a href="./index.html">
+            <img
+              src="https://images.bewakoof.com/web/bewakoof-primary-logo-white-bg-2x-1635745564.png"
+              alt="Bewakoof-Home-Logo"
+            />
+          </a>
+          <div class="main-center-nav">
+            <a href="./men.html">MEN</a>
+            <a href="./women.html">WOMEN</a>
+            <a href="./mobile.html">MOBILE COVERS</a>
+          </div>
+        </div>
+
+        <div class="main-right-nav">
+          <input
+            type="text"
+            placeholder="Search by product, category or collection"
+          />
+          <div class="main-nav-cart">
+            <a href="">
+              <img
+                src="https://images.bewakoof.com/web/heart-wishlist.png"
+                alt="wish-list"
+              />
+            </a>
+            <a href="./cart.html"
+              ><img
+                src="https://images.bewakoof.com/web/shopping-bag.png"
+                alt="shopping-bag"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/nav.js"></script>
+
+    <!-- ----- Navbar Bar End ----- -->
+    <!-- -------------------------  -->
+
+    <!-- main container -->
+    <div id="container">
+      <div id="home">
+        <div class="homediv">
+          <p>Home</p>
+        </div>
+        <div class="MenClothing" onclick="window.location.href='men.html'">
+          <p>/ Men Clothing</p>
+        </div>
+
+        <div class="MenClothing" onclick="window.location.href='men.html'">
+          <p>/ Men T-Shirts</p>
+        </div>
+
+        <div class="MenClothing" onclick="window.location.href='men.html'">
+          <p>/ Men Plain T-Shirts</p>
+        </div>
+
+        <div class="MenClothing">
+          <p>/ Jet Black Half Sleeve T-Shirt</p>
+        </div>
+      </div>
+
+      <div class="productdetail">
+        <div id="tshirtphoto">
+          <img
+            class="photo"
+            src="https://images.bewakoof.com/t540/jet-black-half-sleeve-t-shirt-106-1639137606-1.jpg"
+            alt="photo"
+          />
+        </div>
+
+        <div class="detail">
+          <h3 class="head">BEWAKOOF</h3>
+
+          <p class="proline">Jet Black Half Sleeve T-Shirt</p>
+          <!-- img -->
+          <img
+            class="rating"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCnUR2O9Fb_WuWSd-zO-PBuBCQi0ijN3Fe_-1GzoeWlhSZHhMQrhF3aWsfhdOXTyjlNw&usqp=CAU"
+            alt="star"
+          />
+
+          <!-- price -->
+          <div class="pricedetail">
+            <div class="price">
+              <p class="pricede">₹349</p>
+            </div>
+
+            <div class="strike">
+              <p class="strikecut">₹3̶9̶9̶</p>
+            </div>
+
+            <div class="offer">(12% OFF)</div>
+          </div>
+          <p class="taxes">Inclusive of taxes</p>
+
+          <hr />
+
+          <p class="tribe">
+            TriBe members get an extra discount of ₹30 and FREE shipping. Learn
+            More
+          </p>
+          <hr />
+
+          <p class="size">SELECT SIZE</p>
+
+          <!-- tshirt size -->
+          <div class="allsizesbutton">
+            <div class="btn">
+              <button class="clothsizebtn">S</button>
+            </div>
+
+            <div class="btn">
+              <button class="clothsizebtn">M</button>
+            </div>
+
+            <div class="btn">
+              <button class="clothsizebtn">L</button>
+            </div>
+
+            <div class="btn">
+              <button class="clothsizebtn">XL</button>
+            </div>
+
+            <div class="btn">
+              <button class="clothsizebtn">2XL</button>
+            </div>
+
+            <div class="btn">
+              <button class="clothsizebtn">3XL</button>
+            </div>
+          </div>
+
+          <!-- addtobag -->
+          <div class="addtobag">
+            <button class="clothsizebtn1">♡</button>
+
+           <a href="./cart.html"> <button onclick="addbag()" class="addtobagbtn">ADD TO BAG</button></a>
+          </div>
+
+          <hr class="line" />
+          <select class="policy">
+            <option value="SAVE EXTRA WITH 4 OFFERS">
+              SAVE EXTRA WITH 4 OFFERS
+            </option>
+            <option value="">
+              Get Rs.100 instant discount on your First Purchase above Rs.599.
+              Coupon code - NEW100
+            </option>
+            <option value="">
+              Whistles! Get extra 15% cashback on prepaid orders above Rs.599.
+              Coupon code - HATKE15
+            </option>
+          </select>
+          <hr />
+
+          <select class="policy">
+            <option value="PRODUCT DESCRIPTION">PRODUCT DESCRIPTION</option>
+            <option value="">
+              Regular fit - Fitted at Chest and Straight on Waist Down
+            </option>
+            <option value="">
+              Single Jersey, 100% Cotton Classic, lightweight jersey fabric
+              comprising 100% cotton.
+            </option>
+          </select>
+          <hr />
+
+          <select class="policy">
+            <option value="PRODUCT DESCRIPTION">
+              15 DAY RETURNS & EXCHANGE
+            </option>
+            <option value="">
+              Easy returns upto 15 days of delivery. Exchange available on
+              select pincodes
+            </option>
+          </select>
+          <hr />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script></script>

@@ -1,0 +1,111 @@
+/* ---------------------------- */
+/* ----- Navbar Bar Start ----- */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+    margin-top: 0;
+}
+a {
+  color: black;
+}
+
+/* --- Top Nav Bar --- */
+.top-nav {
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+.top-nav,
+.top-left-nav,
+.top-right-nav {
+  display: flex;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 1px 50px 1px;
+  font-size: 10px;
+}
+
+.top-left-nav a,
+.top-right-nav a {
+  padding: 1px 7px;
+}
+
+/* --- Main Nav Bar --- */
+.main-nav {
+  justify-content: space-between;
+  margin-top: 5px;
+  border-bottom: 1px solid lightgrey;
+}
+.main-nav,
+.main-left-nav,
+.main-center-nav,
+.main-right-nav {
+  display: flex;
+  text-align: center;
+  padding: 0 50px;
+}
+.main-left-nav img {
+  height: 18px;
+  margin: 16px 1px;
+}
+.main-center-nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.main-center-nav a {
+  padding: 20px 10px;
+}
+.main-right-nav input {
+  margin: 0 10px 0 0;
+  height: 70%;
+  width: 300px;
+  height: 3em;
+  font-size: 12px;
+  background-color: #eaeaea;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-shadow: none;
+  position: relative;
+}
+.main-right-nav input:focus{
+  background-color: white;
+  outline: 1px solid black;
+}
+.main-right-nav button {
+  border: 1px solid transparent;
+  border-left: 1px solid grey;
+  background-color: white;
+  font-size: 100%;
+  width: auto;
+  vertical-align: baseline;
+  margin-top: 10px;
+  color: black;
+  cursor: pointer;
+}
+.main-right-nav img {
+  height: 18px;
+  margin: 16px 1px;
+}
+.main-right-nav div {
+  display: flex;
+  margin: 0 1px;
+  width: 12%;
+  justify-content: space-between;
+}
+
+/* --- Bottom Nav Bar --- */
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.bottom-nav a {
+  padding: 0 25px;
+  height: fit-content;
+  font-size: 20px;
+}
+
+/* ----- Navbar Bar End ----- */
+/* -------------------------- */
