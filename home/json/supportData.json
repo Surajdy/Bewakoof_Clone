@@ -1,0 +1,97 @@
+{
+  "coustomerServics": [
+    {
+      "name": "Contact Us",
+      "location": "#"
+    },
+    {
+      "name": "Track Order",
+      "location": "#"
+    },
+    {
+      "name": "Return Order",
+      "location": "#"
+    },
+    {
+      "name": "Cancel Order",
+      "location": "#"
+    }
+  ],
+  "company": [
+    {
+      "name": "About Us",
+      "location": "#"
+    },
+    {
+      "name": "We're Hiring",
+      "location": "#"
+    },
+    {
+      "name": "Terms & Conditions",
+      "location": "#"
+    },
+    {
+      "name": "Privacy Policy",
+      "location": "#"
+    },
+    {
+      "name": "Blog",
+      "location": "#"
+    }
+  ],
+  "connectWithUs": [
+    {
+      "community": "4.7M People Like this",
+      "location": "#",
+      "iconName": "fa-square-facebook"
+    },
+    {
+      "community": "1M Followers",
+      "location": "#",
+      "iconName": "fa-instagram"
+    }
+  ],
+
+  "socialMediaIcons": [
+    {
+      "social": "fa-twitter",
+      "location": "https://twitter.com/bewakoof"
+    },
+    {
+      "social": "fa-pinterest",
+      "location": "https://www.pinterest.com/bewakoof/"
+    },
+    {
+      "social": "fa-snapchat",
+      "location": "https://www.snapchat.com/add/bewakoof_tv"
+    },
+    {
+      "social": "fa-apple",
+      "location": "https://apps.apple.com/in/app/bewakoof/id1100190514"
+    }
+  ],
+  "bfkPolicy":[
+    {
+    "policy" : "15 Days return policy*",
+    "icon": "fa-rotate-left",
+    "location": "#"
+    },
+    {
+    "policy" : "Cash on delivery*",
+    "location": "#",
+    "icon": "fa-money-bill"
+    }
+  ],
+  "downloadTheApp":[
+    {
+      "place_url":"https://images.bewakoof.com/web/app_android_v1.png",
+      "location" : "https://play.google.com/store/apps/details?id=com.bewakoof.bewakoof&hl=en"
+    },
+    {
+      "place_url":"https://images.bewakoof.com/web/app_ios_v1.png",
+      "location" : "https://apps.apple.com/in/app/bewakoof/id1100190514"
+    }
+  ]
+ 
+}
+

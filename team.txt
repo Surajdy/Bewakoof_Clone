@@ -6,3 +6,57 @@ Team Members Name :
 3) Ashutosh Kumar
 4) Rishik Sinha
 5) Abhay Khare
+
+
+
+
+     // geting data
+        
+          /*
+          // hook 
+        
+
+          const topWearContainer = document.querySelector('.topWear-collections');
+          const topWearUl = document.createElement('ul')
+
+          topWearData.forEach(ele => {
+               let li = document.createElement('li')
+               let ancher = document.createElement('a');
+               ancher.classList.add('link-color')
+               ancher.classList.add('font12px')
+               ancher.href = ele.location;
+               if (ele.topWearItem !== "Top Wear") {
+                    if (ele.topWearItem !== "All Topwear") {
+                         ancher.innerHTML = `Men's ${ele.topWearItem}`
+                    }
+               } else {
+                    ancher.innerHTML = ele.topWearItem
+               }
+               li.appendChild(ancher);
+               topWearUl.append(li);
+               topWearContainer.append(topWearUl);
+          });
+
+
+
+          const bottomWearContainer = document.querySelector('.bottomWear-collections');
+          const bottomWearUl = document.createElement('ul')
+
+          bottomWearData.forEach(ele => {
+               console.log(ele);
+               let li = document.createElement('li')
+               let ancher = document.createElement('a');
+               ancher.classList.add('link-color')
+               ancher.classList.add('font12px')
+               ancher.href = ele.location;
+               if (ele.bottomWearItem !== "Bottom Wear") {
+                    ancher.innerHTML = `Men's ${ele.bottomWearItem}`
+
+               } else {
+                    ancher.innerHTML = ele.bottomWearItem
+               }
+               li.appendChild(ancher);
+               bottomWearUl.append(li);
+               bottomWearContainer.append(bottomWearUl);
+          });
+          */
