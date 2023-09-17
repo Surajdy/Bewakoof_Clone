@@ -1,0 +1,84 @@
+body{
+    font-family: montserrat,sans-serif;
+}
+#container{
+    width:80%;   
+    margin: auto;
+
+    background-color: rgb(230, 227, 227);
+    padding: 50px 57px 107px 52px;
+}
+#container h1+div{
+    display: flex;
+
+}
+
+#heading{
+    width:100%;
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+   
+}
+::-webkit-scrollbar{
+    width: 6px;
+    color: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fdd835;
+    border-radius: 5px;
+}
+#container1{
+    width:60%;
+    height:500px; 
+    display: flex;
+    background-color: white;
+    flex-direction:column;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+#container1>div{
+    margin-top: 10px;
+}
+#container2{
+    margin-left: 50px;
+
+}
+#brands1{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 15px;
+}
+#popular1{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 15px;
+}
+#input{
+    display: block;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 40px;
+}
+#selectB, #selectM{
+    width:95%;
+    height:35px;
+}
+button{
+    width:80%;
+    height:35px;
+    border: none;
+    background-color: grey;
+}
+#paras{
+    padding-left: 43px;
+    
+}
+p{
+    color: rgb(130, 127, 127);
+}
