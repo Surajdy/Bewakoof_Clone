@@ -79,12 +79,13 @@
     display: flex;
     justify-content: space-between;
     width: 87%;
-    /* border: 1px solid black; */
+    
     margin: auto;
     margin-bottom: -100px;
     margin-top: 50px;
     font-family: sans-serif;
   }
+  
   #sortPrice1{
     margin-bottom: 50px;
   }
@@ -116,6 +117,8 @@
     padding: 10px;
     
   }
+
+
   #Venue{
     
     font-size: 18px;
@@ -216,15 +219,45 @@
 }
 
 
-/* @media (max-width: 1600px) {
-  #home_bar {
-      margin-left: 10px; /* Adjust the margin for smaller screens */
+@media all and (min-width:650px) and (max-width: 900px) {
+  #home_bar, #category_name {
+    margin-left: 20px;
+
   
-/* 
-  /* #container { */
-      /* margin-left: 10px; /* Adjust the margin for smaller screens */
-      /* margin-top: 20px; Adjust the margin for smaller screens
-  */  
+  }
+
+
+
+  #container {
+    width: 90%;
+    margin: 20px auto;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #ra{
+    display: none;
+  }
+}
+
+/* Styles for mobile devices */
+@media all and  (max-width: 650px) {
+  #home_bar, #category_name {
+    margin-left: 10px;
+  }
+
+  #container {
+    width: 50%;
+    margin: 20px auto;
+    grid-template-columns: repeat(1, 1fr);
+    /* height: 50%; */
+  }
+
+  #ra{
+    display: none;
+  }
+}
+
+
 
 /*<!--------------------------------navbar----------->*/
 

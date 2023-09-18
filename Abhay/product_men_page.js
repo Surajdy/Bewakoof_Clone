@@ -10,7 +10,8 @@ var fashionData = [
     price2: 999,
     offer: "₹279 For TriBe Members",
     category: "T-Shirt",
-    size:"S"
+    size:"S",
+    color:"black"
 
   },
   {
@@ -25,7 +26,8 @@ var fashionData = [
     price2: 999,
     offer: "₹469 For TriBe Members",
     category: "T-Shirt",
-    size:"S"
+    size:"S",
+    color:"red"
 
   },
   {
@@ -52,7 +54,8 @@ var fashionData = [
     price2: 1299,
     offer: "₹469 For TriBe Members",
     category: "T-Shirt",
-    size:"XL"
+    size:"XL",
+    color:"white"
 
   },
   {
@@ -66,7 +69,8 @@ var fashionData = [
     price2: 999,
     offer: "₹379 For TriBe Members",
     category: "Vest",
-    size:"S"
+    size:"S",
+    color:"white"
   },
   {
     avatar:
@@ -79,7 +83,8 @@ var fashionData = [
     price2: 830,
     offer: "₹459 For TriBe Members",
     category: "Vest",
-    size:"XL"
+    size:"XL",
+    color:"black"
   },
   {
     avatar:
@@ -145,7 +150,8 @@ var fashionData = [
     price2: 999,
     offer: "₹329 For TriBe Members",
     category: "T-Shirt",
-    size:"L"
+    size:"L",
+    
   },
   {
     avatar:
@@ -158,7 +164,8 @@ var fashionData = [
     price2: 999,
     offer: "₹329 For TriBe Members",
     category: "T-Shirt",
-    size:"S"
+    size:"S",
+    color:"black"
   },
   {
     avatar:
@@ -171,33 +178,36 @@ var fashionData = [
     price2: 1099,
     offer: "₹279 For TriBe Members",
     category: "T-Shirt",
-    size:"2XL"
+    size:"2XL",
+    color:"yellow"
   },
   {
     avatar:
       "https://images.bewakoof.com/t320/jet-black-half-sleeve-t-shirt-106-1637159826-5.jpg",
     brand: "Bewakoof",
-    name: "Men's Blue Bugs Bunny Circle Graphic Printed T-shirt",
+    name: "Men's black half Sleeve Graphic Printed T-shirt",
     rupees: "₹",
     price: 299,
     rupees2: "₹",
     price2: 1299,
     offer: "₹279 For TriBe Members",
     category: "T-Shirt",
-    size:"28"
+    size:"28",
+    color:"black"
   },
   {
     avatar:
       "https://images.bewakoof.com/t320/men-s-black-winter-soldier-logo-oversized-t-shirt-466321-1649266565-1.jpg",
     brand: "Bewakoof",
-    name: "Men's Blue Bugs Bunny Circle Graphic Printed T-shirt",
+    name: "Men's black winter soldier oversized Printed T-shirt",
     rupees: "₹",
     price: 299,
     rupees2: "₹",
     price2: 999,
-    offer: "₹279 For TriBe Members",
+    offer: "₹289 For TriBe Members",
     category: "T-Shirt",
-    size:"32"
+    size:"32",
+    color:"black"
   },
 
   {
@@ -211,21 +221,23 @@ var fashionData = [
     price2: 1249,
     offer: "₹279 For TriBe Members",
     category: "T-Shirt",
-    size:"30"
+    size:"30",
+    color:"blue"
 
   },
   {
     avatar:
       "https://images.bewakoof.com/t640/men-s-green-fight-the-joker-graphic-printed-oversized-t-shirt-620075-1694518975-1.jpg",
     brand: "Bewakoof",
-    name: "Men's Blue Bugs Bunny Circle Graphic Printed T-shirt",
+    name: "Men's green fight Bugs Bunny Circle Graphic Printed T-shirt",
     rupees: "₹",
     price: 299,
     rupees2: "₹",
     price2: 1099,
     offer: "₹279 For TriBe Members",
     category: "T-Shirt",
-    size:"XS"
+    size:"XS",
+    color:"blue"
   },
   {
     avatar:
@@ -238,7 +250,8 @@ var fashionData = [
     price2: 830,
     offer: "₹379 For TriBe Members",
     category: "T-Shirt",
-    size:"S"
+    size:"S",
+    color:"black"
   },
   {
     avatar:
@@ -251,7 +264,8 @@ var fashionData = [
     price2: 1299,
     offer: "639 For TriBe Members",
     category:"T-Shirt",
-    size:"XL"
+    size:"XL",
+    color:"blue"
   },
   {
     avatar:
@@ -264,7 +278,8 @@ var fashionData = [
     price2: 1299,
     offer: "₹599 For TriBe Members",
     category: "T-Shirt",
-    size:"L"
+    size:"L",
+    color:"blue"
   },
   {
     avatar:
@@ -453,7 +468,40 @@ function displayData(data) {
     //console.log (elem)
 
   })
+
+
+
+
+  
 }
+
+function press(elem) {
+  // Retrieve existing cart data from localStorage
+  var existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+
+  // Add the selected product to the cart
+  existingCart.push(elem);
+
+  // Store the updated cart data in localStorage
+  localStorage.setItem("cart", JSON.stringify(existingCart));
+
+  // Redirect to the cart page
+  window.location.href = "product_cart.html";
+}
+
+// function press(elem) {
+//   document.querySelector("#container").innerHTML = ""
+//   // fashionArr.push(elem);
+//   var product = [];
+//   product.push(elem)
+//   console.log(product)
+//   localStorage.setItem("dataone", JSON.stringify(product));
+//   window.location.href = "product_cart.html";
+// }
+// let userdata=JSON.parse(localStorage.getItem('user'));
+
+
+
 function press(elem) {
   document.querySelector("#container").innerHTML = ""
   // fashionArr.push(elem);
@@ -461,12 +509,21 @@ function press(elem) {
   product.push(elem)
   console.log(product)
   localStorage.setItem("dataone", JSON.stringify(product));
-  window.location.href = "product_cart.html";
+  window.location.href ="product_cart.html"
 }
-let userdata=JSON.parse(localStorage.getItem('user'));
+
+// // Usage when adding to the cart:
+// press(elem, "cart");
+
+// // Usage when redirecting to the product page:
+// press(elem, "productPage");
+
 // console.log(userdata.username);
 if(userdata!=null){
 document.querySelector("#username").innerText=`Hi, ${userdata.username}`;
 document.querySelector('#signin').style.display="none"
 document.querySelector('#heart').style.display="none"
 }
+
+
+

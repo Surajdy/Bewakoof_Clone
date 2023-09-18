@@ -209,3 +209,51 @@
     font-family: sans-serif;
 }
 
+/* Add media query for screens with a max-width of 768px */
+@media (max-width: 768px) {
+    #bigBox {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        align-items: center; /* Center items horizontally on smaller screens */
+    }
+
+    #pro, #details {
+        width: 100%; /* Make both columns full width on smaller screens */
+    }
+
+    .prices {
+        flex-direction: column; /* Stack price elements vertically on smaller screens */
+        align-items: center; /* Center price items horizontally on smaller screens */
+    }
+
+    #offers {
+        width: auto; /* Reset width for the offer text on smaller screens */
+    }
+
+    .tags {
+        width: auto; /* Reset width for tags on smaller screens */
+    }
+
+    #size {
+        margin-top: 20px; /* Add some margin for size options on smaller screens */
+    }
+
+    #kuch {
+        width: 100%; /* Make size options full width on smaller screens */
+        justify-content: center; /* Center size options horizontally on smaller screens */
+        gap: 15px; /* Reduce gap between size options on smaller screens */
+    }
+
+    #addToCart {
+        flex-direction: column; /* Stack add to cart and wishlist vertically on smaller screens */
+        margin-top: 20px; /* Add some margin between add to cart and wishlist on smaller screens */
+    }
+
+    #bagtocart, #wishlist {
+        width: 100%; /* Make buttons full width on smaller screens */
+    }
+}
+
+/* Add media query for screens with a max-width of 480px */
+@media (max-width: 480px) {
+    /* Add styles for screens smaller than 480px if needed */
+}
