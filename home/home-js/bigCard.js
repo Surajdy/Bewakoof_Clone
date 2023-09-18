@@ -24,7 +24,7 @@ fetch('/home/json/big-images.json')
           });
 
 
-          const toHotToBeMissed = document.querySelector('#hot-to-be-missed');
+          const toHotToBeMissed = document.querySelector('.hot-to-be-missed');
           const MissedContainer = document.createElement('div');
           MissedContainer.classList.add('grid2-1fr')
           const tooBeMissed = data.tooBeMissed;
@@ -43,7 +43,7 @@ fetch('/home/json/big-images.json')
           });
 
           const ourBestPicksData = data.ourBestPicks;
-          const ourBestPicksContainer = document.querySelector('#our-best-picks');
+          const ourBestPicksContainer = document.querySelector('.our-best-picks');
           const picksContainer = document.createElement('div');
           picksContainer.classList.add('grid2-1fr')
           picksContainer.classList.add('gap-r0-c5')

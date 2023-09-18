@@ -1,7 +1,6 @@
 fetch('/home/json/bfkCoofcollection.json')
      .then(response => response.json())
      .then(data => {
-          footerSection(data);
           megaDropDwonMenu(data);
 
      })
@@ -20,6 +19,7 @@ function bewkoofCollection(refrence, data, gender = "", uppercase = "uppercase",
           ancher.classList.add(margin);
           ancher.classList.add(uppercase);
           ancher.classList.add('d-flex')
+          
           ancher.href = ele.location;
 
           if (ele.collections !== "Top Wear" && ele.collections !== "Bottom Wear" && ele.collections !== "All Topwear" && ele.collections !== "Featured") {
@@ -30,77 +30,15 @@ function bewkoofCollection(refrence, data, gender = "", uppercase = "uppercase",
           }
           li.appendChild(ancher);
           refrenceUl.append(li);
-          refrenceContainer.append(refrenceUl);
+          
      });
-     return refrenceContainer;
+
+     refrenceContainer.append(refrenceUl)
+     
+     return refrenceContainer ;
 }
 
-function footerSection(data) {
-     // Men's Collections
-     let mTopWearData = data.topWear;
-     let mBottomWearData = data.bottomWear;
-     let mFeaturesBfkData = data.mFeatured;
 
-     const mensCollectionContainer = document.querySelector('.mens-clothing')
-
-     const mTopWearCollections = bewkoofCollection('.topWear-collections', mTopWearData, "Men's", "text-transform-none")
-     const mBottomWearCollections = bewkoofCollection('.bottomWear-collections', mBottomWearData, "Men's", "text-transform-none")
-     const mFeatureCollections = bewkoofCollection('.features-collections', mFeaturesBfkData, "", "text-transform-none")
-
-     mensCollectionContainer.append(mTopWearCollections)
-     mensCollectionContainer.append(mBottomWearCollections)
-     mensCollectionContainer.append(mFeatureCollections)
-
-
-     // Women's Collections
-
-     let wTopWearData = data.topWear;
-     let wBottomWearData = data.bottomWear;
-     let wFeaturesBfkData = data.wFeatured;
-     let wBagData = data.bags;
-
-     const womensCollectionContainer = document.querySelector('.womens-clothing')
-
-     const wTopWearCollections = bewkoofCollection('.womens-topWear-collections', wTopWearData, "Womens's", "text-transform-none")
-     const wBottomWearCollections = bewkoofCollection('.womens-bottomWear-collections', wBottomWearData, "Womens's", "text-transform-none")
-     const wBagCollections = bewkoofCollection('.womens-bag-collections', wBagData, "", 'text-transform-none')
-     const wFeatureCollections = bewkoofCollection('.womens-bag-collections', wFeaturesBfkData, "Womens", "text-transform-none")
-
-     womensCollectionContainer.append(wTopWearCollections)
-     womensCollectionContainer.append(wBottomWearCollections)
-     womensCollectionContainer.append(wBagCollections)
-     womensCollectionContainer.append(wFeatureCollections)
-
-     // Mobile Covers
-
-     let coversCollections = data.mobileCovers;
-
-     const coversCollectionContainer = document.querySelector('.mobile-covers')
-
-     const mobileCoversCollections = bewkoofCollection('.mobile-covers-collections', coversCollections, "", "text-transform-none")
-
-     coversCollectionContainer.append(mobileCoversCollections)
-
-     let successData = data.success;
-     const successContainer = document.querySelector('.success')
-     const successDiv = document.createElement('div');
-
-     successData.forEach(ele => {
-          let ancher = document.createElement('a');
-          const successH4 = document.createElement('h4');
-          successH4.classList.add('font16px')
-          successH4.classList.add('uppercase')
-          successH4.classList.add('success-color')
-          successH4.classList.add('mr-20px')
-
-          successH4.innerHTML = ele.collections;
-          ancher.href = ele.location;
-          ancher.append(successH4);
-          successDiv.append(ancher);
-
-     })
-     successContainer.append(successDiv)
-}
 
 function megaDropDwonMenu(data) {
      womensMegaDropDwon(data)
@@ -118,7 +56,7 @@ function mensMegaDropDwon(data){
      let innerwearData = data.innerwearAndLoundewear;
 
      // Column 1
-     const colFirstContainer = document.querySelector('#col-1-mega-menu')
+     const colFirstContainer = document.querySelector('.col-1-mega-menu')
 
      const topWearCollections = bewkoofCollection('.top-wear-mega', mTopWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      const innerContainer = bewkoofCollection('.Innerwear-longewear', innerwearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -129,7 +67,7 @@ function mensMegaDropDwon(data){
      // Column 2
      let bottomWearData = data.bottomWear;
      let accessoriesData = data.accessories;
-     const colSecondContainer = document.querySelector('#col-2-mega-menu')
+     const colSecondContainer = document.querySelector('.col-2-mega-menu')
 
      const bottomCollections = bewkoofCollection('.bottom-wear-mega', bottomWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      const accessroiesCollection = bewkoofCollection('.accessories-mega', accessoriesData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -142,7 +80,7 @@ function mensMegaDropDwon(data){
      let winterWearData = data.winterWear;
      let footwearDAta = data.footWear;
      let pluseSizeDAta = data.plusSize;
-     const colThirdContainer = document.querySelector('#col-3-mega-menu')
+     const colThirdContainer = document.querySelector('.col-3-mega-menu')
 
      const winterCollections = bewkoofCollection('.winter-wear-mega', winterWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      const footCollection = bewkoofCollection('.footwear-mega', footwearDAta, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -154,7 +92,7 @@ function mensMegaDropDwon(data){
 
      // Column 4
      const specialMart = data.specialsDropDwonData;
-     const colForthContainer = document.querySelector('#col-4-mega-menu')
+     const colForthContainer = document.querySelector('.col-4-mega-menu')
      const specialMega = megaDropDwonSpecils(specialMart);
      colForthContainer.append(specialMega)
 }
@@ -177,7 +115,6 @@ function megaDropDwonSpecils(data) {
           span.classList.add('text-transform-none')
           span.classList.add('d-block')
           span.classList.add('text-align-strat')
-          // span.classList.add('debug')
           span.classList.add('mega-link')
           span.setAttribute('id', 'mega-special')
 
@@ -206,14 +143,14 @@ function womensMegaDropDwon(data) {
 
      // col-1-mega-menu-women
 
-     const colFirstContainerWomen = document.querySelector('#col-1-mega-menu-women')
+     const colFirstContainerWomen = document.querySelector('.col-1-mega-menu-women')
      const topWearCollectionsWomen = bewkoofCollection('.top-wear-mega-women', mTopWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      colFirstContainerWomen.append(topWearCollectionsWomen)
 
 
 
      // Column 2
-     const colSecondContainerWomen = document.querySelector('#col-2-mega-menu-women')
+     const colSecondContainerWomen = document.querySelector('.col-2-mega-menu-women')
 
      const bottomCollectionsWomen = bewkoofCollection('.bottom-wear-mega-women', bottomWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      const accessroiesCollectionWomen = bewkoofCollection('.accessories-mega-women', accessoriesData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -224,7 +161,7 @@ function womensMegaDropDwon(data) {
      colSecondContainerWomen.append(innerContainerWomen)
 
 
-     const colThirdContainerWomen = document.querySelector('#col-3-mega-menu-women')
+     const colThirdContainerWomen = document.querySelector('.col-3-mega-menu-women')
 
      const winterCollectionsWomen = bewkoofCollection('.winter-wear-mega-women', winterWearData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      const footCollectionWomen = bewkoofCollection('.footwear-mega-women', footwearDAta, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -236,7 +173,7 @@ function womensMegaDropDwon(data) {
 
 
      // const specialMart = data.specialsDropDwonData;
-     const colForthContainerWomen = document.querySelector('#col-4-mega-menu-women')
+     const colForthContainerWomen = document.querySelector('.col-4-mega-menu-women')
      const specialMegaWomen = megaDropDwonSpecils(specialMart);
      colForthContainerWomen.append(specialMegaWomen)
 }
@@ -253,7 +190,7 @@ function mobileMegaDropDwon(data) {
      let vivoData = data.vivo
      let otherData = data.othersBrands;
      // Column 1
-     const colFirstCoversContainerCover = document.querySelector('#col-1-mega-menu-popluor')
+     const colFirstCoversContainerCover = document.querySelector('.col-1-mega-menu-popluor')
 
      const nothingCollections = bewkoofCollection('.nothing-mega-covers', nothingData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
      colFirstCoversContainerCover.append(nothingCollections)
@@ -262,7 +199,7 @@ function mobileMegaDropDwon(data) {
      colFirstCoversContainerCover.append(appleCollections)
 
 
-     const colSecondCoversContainerCover = document.querySelector('#col-2-mega-menu-covers')
+     const colSecondCoversContainerCover = document.querySelector('.col-2-mega-menu-covers')
 
 
      const xiamoiCollections = bewkoofCollection('.xiomi-mega-covers', xaimoiData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -271,7 +208,7 @@ function mobileMegaDropDwon(data) {
      colSecondCoversContainerCover.append(xiamoiCollections)
      colSecondCoversContainerCover.append(samsumngCollectionsCollections)
 
-     const colThirdCoversContainerCover = document.querySelector('#col-3-mega-menu-covers')
+     const colThirdCoversContainerCover = document.querySelector('.col-3-mega-menu-covers')
 
 
      const onePlusCollections = bewkoofCollection('.oneplus-mega-covers', oneplusData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
@@ -282,7 +219,7 @@ function mobileMegaDropDwon(data) {
      colThirdCoversContainerCover.append(realmeCollectionsCollections)
      colThirdCoversContainerCover.append(vivoCollectionsCollections)
 
-     const colForthCoversContainerCover = document.querySelector('#col-4-mega-menu-covers')
+     const colForthCoversContainerCover = document.querySelector('.col-4-mega-menu-covers')
 
      const othersCollectionsCollections = bewkoofCollection('.other-brand-covers', otherData, "", "text-transform-none", 'mega-link', 'font12px', 'pd-0-30-0-0px', 'mr-12px')
 
@@ -307,6 +244,6 @@ function mobileMegaDropDwon(data) {
 
      ancher.append(image);
 
-     const forImage = document.querySelector('#for-image-covers');
+     const forImage = document.querySelector('.for-image-covers');
      forImage.append(ancher)
 }

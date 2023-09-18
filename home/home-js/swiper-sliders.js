@@ -37,6 +37,7 @@ function commonSlider(data, firstSwiparContainer1, firstSwiperSlider1, swiperSli
 }
 
 swiperWrapper('.first-swiper-slider')
+
 function swiperWrapper(slide){
 var swiper = new Swiper(slide, {
   slidesPerView: 3,
@@ -56,6 +57,7 @@ var swiper = new Swiper(slide, {
     delay: 2600, // Auto-play delay in milliseconds (2.5 seconds)
     disableOnInteraction: false, // Enable auto-play even when the user interacts with the slider
   },
+
 });
 }
 

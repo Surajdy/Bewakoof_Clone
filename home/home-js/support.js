@@ -5,7 +5,7 @@ fetch('/home/json/supportData.json')
           // Footer First Section
           const customerServices = data.coustomerServics;
 
-          const footerItemsContainer = document.querySelector('#footer-section');
+          const footerItemsContainer = document.querySelector('.footer-section');
 
           let customerService = document.querySelector('.customer-service');
           // customerService.classList.add('customer-service')
@@ -19,7 +19,10 @@ fetch('/home/json/supportData.json')
 
                let li = document.createElement('li');
                li.classList.add('top3px')
+               li.classList.add('d-flex')
                li.innerHTML = ele.name;
+               // let sep = document.createElement('a');
+               // sep.innerHTML = '|'
 
                ancher.append(li);
 
@@ -109,12 +112,14 @@ fetch('/home/json/supportData.json')
           inputEmail.type = 'email';
           inputEmail.placeholder = `Enter Email Id`
           inputEmail.classList.add('subscribe-email');
+         
 
           let inputBtn = document.createElement('input')
           inputBtn.type = 'button';
           inputBtn.value = `Subscribe`
           inputBtn.classList.add('subscribe-btn');
           inputBtn.classList.add('uppercase');
+          inputBtn.classList.add('top4px');
 
           upToDate.append(inputEmail, inputBtn);
 
@@ -179,7 +184,7 @@ fetch('/home/json/supportData.json')
                dwonloadApp.append(imageContainer);
           })
 
-          let securePayment = document.querySelector('#secure-paymet');
+          let securePayment = document.querySelector('.secure-paymet');
           let image = document.createElement('img');
           image.src = 'https://images.bewakoof.com/web/secure-payments-image.png';
           image.classList.add('img100px')

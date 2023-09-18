@@ -14,6 +14,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <!-- Swiper wrapper -->
     <link
       rel="stylesheet"
@@ -31,16 +32,22 @@
     <link rel="stylesheet" href="home/home-css/utils.css" />
     <link rel="stylesheet" href="home/home-css/footer.css">
     <link rel="stylesheet" href="home/home-css/media-quary.css">
+    <link rel="stylesheet" href="home/home-css/header.css">
   </head>
-  <body>
+  <body >
+
+     <!-- Loading animation container -->
+    <div class="loading-container">
+      <img src="https://images.bewakoof.com/web/bwkf-loading-anim-common.gif" alt="Loading...">
+    </div>
     <!-- Header Section Start -->
     <div class="header-section-for-all">
       <!-- Top Header section -->
       <div class="topBarWrapperHeader d-flex">
         
-        <div class="pull-left">
+        <div>
           <!-- Todo! Offer Page Need  -->
-          <a href="#">Offers</a>
+          <a href="#" >Offers</a>
           <!-- Todo! Fanbook Page Need  -->
           <a href="#">Fanbook</a>
           <!-- Todo! Download App Page Need  -->
@@ -51,7 +58,11 @@
           <a href="#">TriBe Membership</a>
         </div>
 
-        <div class="pull-right">
+        <!-- Empty Div -->
+        <div></div>
+        <div></div>
+
+        <div>
           <!-- Todo! Contact Page Need  -->
           <a href="">Contact Us</a>
           <!-- Todo! Track Order Page Need  -->
@@ -63,21 +74,31 @@
       <div class="main-bar-wrapper-header d-flex d-flex-between">
         <div class="logo-and-menu-items d-flex">
 
-          <div class="bewakoof-logo-container">
-            <a href="#"><img
+          <div class="bewakoof-logo-container d-flex flex-center">
+            
+            <a href="#" class="reponsive-none d-block d-flex-between"><img
                 src="https://images.bewakoof.com/web/ic-desktop-bwkf-trademark-logo.svg"
-                alt="Bewakoof Logo"/></a>
+                alt="Bewakoof Logo"/>
+            </a>
+            <div class="bfk-eye-logo d-flex d-flex-jcenter left5px d-none">
+              <i class="ri-menu-2-line menu-icon"></i>
+              <a href="#" class="eye-bfk text-align-center top4px"><img
+                src="https://images.bewakoof.com/web/ic-web-head-bwk-primary-logo-eyes.svg"
+                alt="Bewakoof Logo"/>
+            </a>
+            </div>
+           
           </div>
 
           
-          <div class="dropDwonMenuWrapper d-flex">
+          <div class="dropDwonMenuWrapper d-flex reponsive-none">
             <!-- Todo! Mens Drop Down Menu -->
           <span href=""><a href="">Man</a>
               <!-- Mega Drop dwon Start -->
               <div class="container-dropDwonMenu-Wrapper">
                 <div class="dropDwon-collection-container d-flex d-flex-around">
                   <!-- Column 1 Start-->
-                  <div id="col-1-mega-menu">
+                  <div class="col-1-mega-menu">
                     <div class="top-wear-mega">
                       <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Top Wear</a>
                     </div>
@@ -91,7 +112,7 @@
                   <!-- Column 2 Start-->
 
 
-                  <div id="col-2-mega-menu">
+                  <div class="col-2-mega-menu">
                     <div class="bottom-wear-mega">
                       <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Bottom Wear</a>
                     </div>
@@ -103,7 +124,7 @@
                   <!-- Column 2 End-->
 
                    <!-- Column 3 Start-->
-                  <div id="col-3-mega-menu">
+                  <div class="col-3-mega-menu">
                     <div class="winter-wear-mega">
                       <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Winter Wear</a>
                     </div>
@@ -118,7 +139,7 @@
                    <!-- Column 3 End-->
                    <div class="separator2"></div>
 
-                   <div id="col-4-mega-menu" class="pd-10-15px width224px d-flex flex-col" style="margin-right: 10%;">
+                   <div class="col-4-mega-menu pd-10-15px width224px d-flex flex-col" style="margin-right: 10%;">
                     <a href="#" class="font14px mr-20px pd-0-30-0-0px shade-gray d-block">Specials</a>
                    </div>
                 </div>
@@ -131,7 +152,7 @@
                   <div class="container-dropDwonMenu-Wrapper">
                     <div class="dropDwon-collection-container d-flex d-flex-around">
                       <!-- Column 1 Start-->
-                      <div id="col-1-mega-menu-women">
+                      <div class="col-1-mega-menu-women">
                         <div class="top-wear-mega-women">
                           <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Top Wear</a>
                         </div>
@@ -142,7 +163,7 @@
                       <!-- Column 2 Start-->
     
     
-                      <div id="col-2-mega-menu-women">
+                      <div class="col-2-mega-menu-women">
                         <div class="bottom-wear-mega-women">
                           <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Bottom Wear</a>
                         </div>
@@ -156,7 +177,7 @@
                       <!-- Column 2 End-->
     
                        <!-- Column 3 Start-->
-                      <div id="col-3-mega-menu-women">
+                      <div class="col-3-mega-menu-women">
                         <div class="winter-wear-mega-women">
                           <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Winter Wear</a>
                         </div>
@@ -171,7 +192,7 @@
                        <!-- Column 3 End-->
                        <div class="separator2"></div>
     
-                       <div id="col-4-mega-menu-women" class="pd-10-15px width224px d-flex flex-col" style="margin-right: 10%;">
+                       <div class="col-4-mega-menu-women pd-10-15px width224px d-flex flex-col" style="margin-right: 10%;">
                         <a href="#" class="font14px mr-20px pd-0-30-0-0px shade-gray d-block">Specials</a>
                        </div>
                     </div>
@@ -190,7 +211,7 @@
                 <section class="d-flex d-flex-between pd-10-15px" style="width: 80%;">
                
                 <!-- Column 1 Start-->
-                <div id="col-1-mega-menu-popluor" style="margin-top: 2%;">
+                <div class="col-1-mega-menu-popluor" style="margin-top: 2%;">
                   <div class="nothing-mega-covers">
                     <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Nothing</a>
                   </div>
@@ -202,7 +223,7 @@
 
 
                 <!-- Column 2 Start-->
-                <div id="col-2-mega-menu-covers" style="margin-top: 2%;">
+                <div class="col-2-mega-menu-covers" style="margin-top: 2%;">
                   <div class="xiomi-mega-covers">
                     <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Xaimoi</a>
                   </div>
@@ -213,7 +234,7 @@
                 <!-- Column 2 End-->
 
                  <!-- Column 3 Start-->
-                <div id="col-3-mega-menu-covers" style="margin-top: 2%;">
+                <div class="col-3-mega-menu-covers" style="margin-top: 2%;">
                   <div class="oneplus-mega-covers">
                     <a href="#" class="font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none">Winter Wear</a>
                   </div>
@@ -228,8 +249,8 @@
                  <!-- Column 3 End-->
                  <div class="separator2"></div>
 
-                 <section id="for-image-covers" style="position: relative;">
-                  <section id="col-4-mega-menu-covers" class="d-flex flex-col">
+                 <section class="for-image-covers" style="position: relative;">
+                  <section class="col-4-mega-menu-covers d-flex flex-col">
                     <a href="#" class="font14px mr-20px pd-0-30-0-0px shade-gray">Others Brand</a>
 
                     <div class="other-brand-covers font14px mr-20px pd-0-30-0-0px mega-blk d-block text-transform-none" >
@@ -248,29 +269,38 @@
         </div>
         <div class="search-input-and-action-icons d-flex">
           <!-- Todo! Need to more work on the search bar -->
-          <div class="search-input-form-control d-flex">
+          <div class="search-input-form-control d-flex  reponsive-none">
             <i class="fa-solid fa-magnifying-glass"> </i>
             <input
+              class="myInput"
               type="text"
               placeholder="Search by product, category or collection"
+              search-data
             />
           </div>
+       
 
-          <hr class="separator" />
+          <hr class="separator reponsive-none" />
 
-          <div class="action-icons-button d-flex">
+          <div class="action-icons-button d-flex pd-10-15px">
             <!-- Todo! Login Text -->
-            <a href="#">
-            <i class="fa-regular fa-user"></i></a>
-            <i class="fa-regular fa-heart"></i>
-            <a href="#">
-            <i class="fa-solid fa-bag-shopping"></i>
+          <a href="#" class="reponsive-none">
+            <i class="fa-regular fa-user"></i>
           </a>
-            <a href="#">
+              <i class="fa-solid fa-magnifying-glass d-none" > </i>
+              <a href="">
+                <i class="fa-regular fa-heart"></i>
+
+              </a>
+              <a href="#">
+              <i class="fa-solid fa-bag-shopping"></i>
+              </a>
+            <!-- <a href="#"> -->
               <img
                 src="https://images.bewakoof.com/web/india-flag-round-1639566913.png"
                 alt="country"
-            /></a>
+            />
+          <!-- </a> -->
           </div>
         </div>
       
@@ -278,7 +308,7 @@
       <!-- Bottom Header section -->
 
       <div class="bottom-header-wrapper-container">
-        <ul id="helpList">
+        <ul class="helpList">
           <li><a href="#">man</a>
             
           </li>
@@ -292,9 +322,95 @@
     </div>
     <!-- Header Section End -->
 
-    <!-- Content Section Start -->
+    
+
+
+    <!-- ======================================
+                  Content Section Start 
+    ============================================-->
+  
+    <section class="content-section">
+
+        <div class="search-feild-popup ">
+            <div class="searched-content">
+
+            </div>
+           
+        </div>
+
+      <div class="side-menu-diriver active">
+          <div class="welcomeHeader pd20trpx"  style="position:sticky;">
+            <h5>Welcome Guest</5>
+            <a href="#" class="font14px shade-gray d-block pdtb-15px">Login/Signup</a>
+          </div>
+          <hr style="width: 100%; padding: 0;" class="top4px">
+
+          <div class="side-menu-features pd-50pxR">
+            <div class="country-selection d-flex align-center d-flex-between pd20trpx" style="margin-bottom: 10px;">
+              <div class="country-flag d-flex algin align-center font14px font-weight-6">
+                <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="width40px right8px">
+                India
+              </div>
+              <i class="fa-solid fa-angle-right "></i>
+            </div>
+          
+          <p class="uppercase font12px font-weight-6  pd20trpx">Shop in</p>
+
+          <div class="shop-in-sections   pd20trpx">
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Mens
+              <img src="https://images.bewakoof.com/nav_menu/Circle-icon-men--1--1684748735.png" alt="" class="width30px">
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Womens
+              <img src="https://images.bewakoof.com/nav_menu/Circle-icon-women--1--1684748736.png" alt="" class="width30px">
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Special
+              <img src="https://images.bewakoof.com/nav_menu/Circle-icon-specials-1684824538.png" alt="" class="width30px">
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Mobile Covers
+            </a>
+          </div>
+
+          <div class="bg-dimwhite">
+          <p class="uppercase font12px font-weight-6  pd20trpx">Contact Us</p>
+          <div class="shop-in-sections pd-20pxR  pd20trpx">
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Help & Support
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Feedback & Sugggestion
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Become a Seller
+            </a>
+          </div>
+        
    
-    <section>
+          <p class="uppercase font12px font-weight-6  pd20trpx">About Us</p>
+          <div class="shop-in-sections pd20trpx ">
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Our Story
+            </a>
+            <a class="mens-collection d-flex d-flex-between align-center font12px pdtb-10px font-weight-6" href="#" >
+              Fanbook
+            </a>
+          </div>
+        </div>
+        
+        </div>
+        
+      </div>
+      <!-- Todo! Work later -->
+      <!-- <div class="country-select">
+        <div class="country-selection  align-center " style="margin-bottom: 10px;">
+          <div class="country-flag d-flex algin align-center font14px font-weight-6">
+            <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="width40px right8px">
+            <a href="#">India</a>
+          </div>
+      </div> -->
     <!-- Swiper Section Start-->
     <div class="main-contect-section-of-web">
     
@@ -308,7 +424,9 @@
       </div>
     </div>
 
-      <div class="small-card-section"></div>
+      <div class="small-card-section overflow">
+
+      </div>
       
       <div class="design-of-the-week">
         <p class="font20px text-align-center">Design of The Week</p>
@@ -317,18 +435,18 @@
 
       <!-- Todo! Timer Left -->
 
-      <div id="trending-categories-images" class="font20px text-align-center uppercase font-weight-6">
+      <div class="trending-categories-images font20px text-align-center uppercase font-weight-6">
         Trending categories
         <!-- Treding Images -->
       </div>
-      <div id="your-hue-gif ">
+      <div class="your-hue-gif ">
         <a href="">
         <img src="https://images.bewakoof.com/uploads/grid/app/color-survey-thin-banner-desktop-1693831203.gif" alt=""
         class="image100width">
       </a>
       </div>
      <!-- Small card section start -->
-      <div class="font20px text-align-center uppercase font-weight-6 " id="hot-to-be-missed"> 
+      <div class="font20px text-align-center uppercase font-weight-6 hot-to-be-missed"> 
             <p class="mr-10rem">Too hot to be missed</p>
       </div>
 
@@ -338,9 +456,9 @@
       </div>
 
         <!-- Middle Slider -->
-        <div class="swiper secondSlider" id="secondOne">
+        <div class="swiper secondSlider secondOne">
 
-          <div class="swiper-wrapper" id="seconds">
+          <div class="swiper-wrapper seconds">
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -353,13 +471,14 @@
         </div>
         
         <!-- Best Seller Cards -->
-        <section id="bestSeller">
+        <section class="bestSeller">
           
           <div class="bestSellerText  text-align-center padding-10px font16px uppercase">
             Best Sellers
           </div>
-        <div class="swiper thirdSlider" id="thirdSwiperSlider">
-          <div class="swiper-wrapper" id="thirdSwiper">
+        <div class="swiper thirdSlider thirdSwiperSlider">
+          <div class="swiper-wrapper thirdSwiper">
+
           </div>
           <div class="swiper-button-next"></div>
           <div class="swiper-button-prev"></div>
@@ -370,7 +489,7 @@
       </section>
 
 
-      <div class="font20px text-align-center uppercase font-weight-6" id="our-best-picks"> 
+      <div class="font20px text-align-center uppercase font-weight-6 our-best-picks"> 
         <p class="mr-10rem">Our best picks</p>
       </div>
 
@@ -387,8 +506,8 @@
               </div>
 
               <!-- Footer First Section -->
-              <section id="footer-section" class="d-flex  d-flex-between">
-
+              <section class="footer-section d-flex  d-flex-between">
+                
                 <div class="customer-service">
                   <span class="footerTitle uppercase font12px">CUSTOMER SERVICE</span>
                 </div>
@@ -423,7 +542,7 @@
                       <div class="imageContainer"></div>
                     <!-- </div> -->
                   </div>
-                  <div id="secure-paymet" class="witdh17_813rem">
+                  <div class = "secure-paymet witdh17_813rem">
                     <span class="footerTitle uppercase font12px">100% Secure Payment</span>
                     <!-- ><div class="grid2-1fr" -->
                       <div class="imageContainer"></div>
@@ -436,6 +555,7 @@
                <hr class="separator">
 
                <section class="d-flex d-flex-between">
+                
                 <div class="mens-clothing witdh285px">
                   <h4 class="font16px uppercase link-color mr-20px">Men's clothing</h4>
                   <div class="topWear-collections">
@@ -498,8 +618,8 @@
     .then(data => {
 
       
-      let secondSlider = document.querySelector('#secondOne');
-      let swiperSlides = document.querySelector('#seconds');
+      let secondSlider = document.querySelector('.secondOne');
+      let swiperSlides = document.querySelector('.seconds');
 
 
       data.secondSwiperSlider.forEach((ele) => {
@@ -550,3 +670,5 @@
 <script src="home/home-js/bfkCollections.js"></script>
 <script src="home/home-js/about-bewakoof.js"></script>
 <script src="home/home-js/dropDwonMenu.js"></script>
+<script src="home/home-js/side-menu-driver.js"></script>
+<script src="home/home-js/footer.js"></script>

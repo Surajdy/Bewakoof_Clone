@@ -38,6 +38,7 @@ li{
      padding: 6px 12px;
      background-color: transparent;
      border: none;
+     border-bottom: 2px solid var(--bewakoof-yellow);
 }
 .subscribe-btn{
      width: 127.35px;

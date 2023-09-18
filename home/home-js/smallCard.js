@@ -30,7 +30,7 @@ fetch('/home/json/small-card.json')
     })
 
     // Trending Categories Images
-    const trendingCategoriesContainer = document.querySelector('#trending-categories-images')
+    const trendingCategoriesContainer = document.querySelector('.trending-categories-images')
     const categoriesContainer = document.createElement('div');
     categoriesContainer.classList.add('grid6-1fr')
     const trendingCategories = data.trendingCategories;
@@ -95,8 +95,8 @@ fetch('/home/json/small-card.json')
     // console.log(bestSellersCard)
 
     
-    let bestSellersContainer = document.querySelector('#thirdSwiperSlider');
-    let sellersCard = document.querySelector('#thirdSwiper');
+    let bestSellersContainer = document.querySelector('.thirdSwiperSlider');
+    let sellersCard = document.querySelector('.thirdSwiper');
 
     bestSellersCard.forEach((ele,index)=>{
       // let swiperSlide = document.createElement('div');
@@ -105,13 +105,17 @@ fetch('/home/json/small-card.json')
       let card = document.createElement('div');
       card.classList.add('swiper-slide')
       card.setAttribute('id', 'bestSellerCard')
+      card.classList.add('img100px-radius-all4')
 
       let image = document.createElement('img');
       image.classList.add('img100px')
       image.classList.add('img100px-radius-4')
+    
 
       let productDetails = document.createElement('div');
       productDetails.classList.add('producDetails');
+      // productDetails.classList.add('producDetails');
+      // productDetails.style.paddingTop = '5px'
 
       let dFlex = document.createElement('div');
       dFlex.classList.add('d-flex')
@@ -160,7 +164,10 @@ fetch('/home/json/small-card.json')
       let productPriceBox = document.createElement('div');
       productPriceBox.classList.add('productPriceBox')
       productPriceBox.classList.add('d-flex')
+      // productPriceBox.classList.add('debug')
       productPriceBox.classList.add('mr-8px')
+      productPriceBox.classList.add('pd5px')
+      
 
       let discountedPrice = document.createElement('div');
       discountedPrice.classList.add('discountedPrice')
@@ -212,7 +219,7 @@ fetch('/home/json/small-card.json')
 
 
   var swiper = new Swiper('.thirdSlider', {
-    slidesPerView: 5,
+    slidesPerView: 2,
     spaceBetween: 35,
     loop: false,
     loopedSlides: 4,
@@ -225,8 +232,20 @@ fetch('/home/json/small-card.json')
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-    // autoplay: {
-    //   delay: 2600, // Auto-play delay in milliseconds (2.5 seconds)
-    //   disableOnInteraction: false, // Enable auto-play even when the user interacts with the slider
-    // },
+    breakpoints: {
+      // Define responsive breakpoints
+      1280: {
+        slidesPerView: 5, // Show 3 cards when viewport width is 990px or less
+      },
+      950: {
+        slidesPerView: 4, // Show 3 cards when viewport width is 990px or less
+      },
+      675: {
+        slidesPerView: 3, // Show 3 cards when viewport width is 990px or less
+      },
+    },
+    autoplay: {
+      delay: 2000, // Auto-play delay in milliseconds (2.5 seconds)
+      disableOnInteraction: false, // Enable auto-play even when the user interacts with the slider
+    },
   });

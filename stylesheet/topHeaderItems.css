@@ -1,0 +1,109 @@
+/* 
+=================================
+          Bewakoof Offers
+=================================
+*/
+
+
+.offers-images{
+    text-align: center;
+}
+.offers-images > img{
+     width: 34%;
+     height: 286.6px;
+     
+}
+.offers-images >div img{
+     width: 70%;
+     height: 286.6px;
+}
+/* 
+=================================
+          FanBook
+=================================
+*/
+
+.show-search-image {
+     border: none;
+     padding: 10px;
+     background-color: #47A992;
+     border-radius: 6px;
+     text-align: center;
+     margin: 15px auto;
+     display: block;
+     color: white;
+     font-size: 16px;
+     display: none;
+}
+.bewakoof-fans{
+     display: grid;
+     grid-template-columns: repeat(3,.8fr);
+     padding: 15px;
+     margin: auto;
+     width: 70%;
+}
+.bewakoof-fans img{
+     width: 99%;
+     height: 99%;
+     margin: auto;
+     background-size: cover;
+}
+
+/* 
+=================================
+          Download Apps
+=================================
+*/
+
+.row-download-apps {
+     width: 80%;
+     margin: 60px auto;
+     padding: 25px;
+}
+.row-download-apps  img{
+     width: 22%;
+     margin: auto;
+     margin: 0px  25px 60px 25px;
+     position: relative;
+     left: 50px;
+     
+}
+.row-download-apps img:nth-child(1){
+     position: relative;
+     left: 150px;
+     top: 100px;
+     z-index: 999;
+}
+.download-app-textContent div:nth-child(1){
+     font-size: 60px;
+     width: 50PX;
+     position: absolute;
+     top: 15%;
+     right: 44%;
+}
+.download-app-textContent div:nth-child(1) h1
+{
+     color: #333333;
+     font-weight: 100;
+}
+.download-app-textContent div:nth-child(2){
+     position: relative;
+     left: 54%;
+     top: -280px;
+}
+.download-app-textContent div:nth-child(2) h4{
+     font-size: 25px;
+     color: #333333;
+     padding-bottom: 10px;
+}
+
+.download-app-textContent div:last-child{
+     position: relative;
+     left: 54%;
+     top: -200px;
+}
+.download-app-textContent div:last-child img{
+     width: 10%;
+     margin-right: 25px;
+
+}
