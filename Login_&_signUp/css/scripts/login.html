@@ -10,7 +10,9 @@
 <body>
     <div id="C_page">
         <div id="Box1">
-            <div><h2 id="head">Welcome to the world of Bewakoof®!</h2></div>
+            <div><h2 id="head">Welcome to the world of Bewakoof<sup>
+                &reg;
+            </sup>!</h2></div>
         <div id="left_box"><img src="https://images.bewakoof.com/web/group-19-1617704502.png" alt="" id="left_image"></div>
         </div>
         <div id="Box2">
@@ -20,13 +22,17 @@
             </div>
             <div id="icb">
                 <div class="flag_num">
-                    <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="flag">
-                    <span class="font_color">+91</span>
+                    <select>
+                        <option value="">
+                            <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="flag">
+                            <span class="font_color">+91</span>
+                        </option>
+                    </select>
                 </div>
-                <input maxlength="10" type="tel" id="mobile" placeholder="Enter Mobile Number">
+                <input maxlength="10" type="text" id="mobile" placeholder="Enter Mobile Number">
             </div>
             <div id="mob_error"></div>
-            <div id="btn_out"><button onclick="mobileCheck()" id="btn">CONTINUE</button></div>
+            <div id="sendCode"><button id="btn">CONTINUE</button></div>
             <hr>
             <div id="socials">
                 <div  class="flag_num">

@@ -1,0 +1,119 @@
+
+#main{
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 27rem;
+    padding: 2px;
+}
+#signin-header{
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: #000000;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 15px;
+    /* font-family: 'National2-Medium'; */
+    margin-bottom: 7%;
+}
+#logo{
+    margin-bottom: 7%;
+}
+#title{
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01px;
+    color: #202124;
+    margin-bottom: 7%;
+}
+#mobno{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #494949;
+}
+#samemobno{
+    font-weight: bold;
+}
+#code input{
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid #494949;
+    outline: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #202124;
+    margin-bottom: 7%;
+}
+
+#phnno{
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid #494949;
+    outline: none;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: hsl(225, 4%, 18%);
+    margin-bottom: 7%;
+}
+#resend input{
+    color: skyblue;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    margin-bottom: 7%;
+}
+#submit button{
+    border-radius: 7px;
+    outline: none;
+    letter-spacing: .5px;
+    background-color: gray;
+    border: none;
+    color: #fff;
+    letter-spacing:1px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 25px 180px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    /* Medium Screen  */
+    #main{
+        max-width: 95%;
+        box-shadow: none;
+    }
+    #submit button{
+        width: 80%;
+    }
+}
