@@ -1,0 +1,225 @@
+body{
+    font-family: "Montserrat";
+}
+#t1Container {
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+
+}
+
+#t1img {
+    height: 27px;
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
+#signupLogo {
+    line-height: 0px;
+    margin-left: 55%;
+}
+
+h3 {
+
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 70px;
+    color: #333333;
+}
+::-webkit-scrollbar{
+    width: 6px;
+    color: #000;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #fdd835;
+    border-radius: 5px;
+}
+
+form {
+    width: 90%;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+
+#parentContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#leftContainer {
+    height: 500px;
+    width: 65%;
+    border: 1px solid gray;
+    display: flex;
+
+
+}
+
+#left1 {
+    width: 40%;
+    height: 500px;
+}
+
+.left1Child {
+    display: flex;
+    height: 70px;
+    width: 95%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.left1Child:hover {
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+#cardNum{
+    letter-spacing: 1.5px;
+}
+
+
+
+
+
+
+
+.cardDetails {
+    font-size: 14px;
+    line-height: 21px;
+    color: #0f0f0f;
+    font-weight: 600;
+    margin-left: -70px;
+    padding-top: 8px;
+}
+
+#formImg,
+#parentCheckBox,
+#cardD {
+    display: flex;
+}
+
+.fImg {
+    height: 15px;
+    width: 30px;
+    padding: 15px 25px;
+}
+
+.left1Img {
+    height: 30px;
+    width: 30px;
+    padding: 15px 15px;
+}
+
+#checkbox {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+#ccv {
+    margin-left: 30px;
+}
+
+#expiry {
+    padding-right: 40px;
+}
+
+#rightContainer {
+    border-right: none;
+    border-left: 1px solid rgb(221, 220, 220);
+    border-top: none;
+    border-right: none;
+    margin-top: -40px;
+    padding-left: 30px;
+
+}
+#rightContainer{
+    height: 50px;
+    margin: auto;
+}
+#rightContainer1 {
+    line-height: 0%;
+    margin: 10px;
+}
+
+.name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.left1Child1 {
+    background-color: white;
+    opacity: stop;
+}
+
+.left1Child1:hover {
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+#itemName {
+    width: 250px;
+    white-space: nowrap;
+    overflow: y;
+    text-overflow: ellipsis;
+}
+#paymentContainer{
+    margin-top: -50px;
+}
+
+#nameshow{
+    margin-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight:900;
+}
+#showcartdata{
+    margin-top: 15px;
+    overflow-y: auto;
+    height: 180px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+#showcartdata>img{
+    height: 80px !important;
+}
+#shoecartdata>p{
+    padding-bottom: 30px;
+}
+#summaryp{
+    width: 100%;
+    margin: auto;
+    margin-right: 80px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}

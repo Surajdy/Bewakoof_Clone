@@ -1,0 +1,3 @@
+function offer(){
+     alert('hiii')
+}

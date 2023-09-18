@@ -1,0 +1,555 @@
+{
+  "topWear": [
+    {
+      "collections": "Top Wear",
+      "location": "#"
+    },
+    {
+      "collections": "Printed T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Oversized T-shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Plain T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Fashion T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Full Sleeve T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Half Sleeve T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Sweatshirts & Hoodies",
+      "location": "#"
+    },
+    {
+      "collections": "Vests",
+      "location": "#"
+    },
+    {
+      "collections": "Co-ord Sets",
+      "location": "#"
+    },
+    {
+      "collections": "Kurtas",
+      "location": "#"
+    },
+    {
+      "collections": "Henleys",
+      "location": "#"
+    },
+    {
+      "collections": "Plus Size Topwear",
+      "location": "#"
+    },
+    {
+      "collections": "Polo T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Jackets",
+      "location": "#"
+    },
+    {
+      "collections": "Sweaters",
+      "location": "#"
+    },
+    {
+      "collections": "Customize T-shirts",
+      "location": "#"
+    },
+    {
+      "collections": "T-shirt Combos",
+      "location": "#"
+    },
+    {
+      "collections": "All Topwear",
+      "location": "#"
+    }
+  ],
+  "bottomWear": [
+    {
+      "collections": "Bottom Wear",
+      "location": "#"
+    },
+    {
+      "collections": "Joggers",
+      "location": "#"
+    },
+    {
+      "collections": "Pyjamas",
+      "location": "#"
+    },
+    {
+      "collections": "Shorts",
+      "location": "#"
+    },
+    {
+      "collections": "Jeans & Denims",
+      "location": "#"
+    },
+    {
+      "collections": "Boxers",
+      "location": "#"
+    },
+    {
+      "collections": "Briefs",
+      "location": "#"
+    },
+    {
+      "collections": "Trousers & Pants",
+      "location": "#"
+    },
+    {
+      "collections": "Plus Size Bottomwear",
+      "location": "#"
+    },
+    {
+      "collections": "All Bottomwear",
+      "location": "#"
+    }
+  ],
+  "accessories": [
+    {
+      "collections": "Mobile covers NEW",
+      "location": "#"
+    },
+    {
+      "collections": "Backpacks",
+      "location": "#"
+    },
+    {
+      "collections": "Caps NEW",
+      "location": "#"
+    },
+    {
+      "collections": "Masks",
+      "location": "#"
+    }
+  ],
+  "winterWear": [
+    {
+      "collections": "Sweatshirts & Hoodies",
+      "location": "#"
+    },
+    {
+      "collections": "Jackets",
+      "location": "#"
+    },
+    {
+      "collections": "Sweaters",
+      "location": "#"
+    },
+    {
+      "collections": "Joggers",
+      "location": "#"
+    },
+    {
+      "collections": "Full Sleeve T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Plus Size",
+      "location": "#"
+    }
+  ],
+  "footWear": [
+    {
+      "collections": "Sliders",
+      "location": "#"
+    },
+    {
+      "collections": "Clogs",
+      "location": "#"
+    },
+    {
+      "collections": "Casual shoes",
+      "location": "#"
+    }
+  ],
+  "plusSize": [
+    {
+      "collections": "T-shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Bottomwear",
+      "location": "#"
+    },
+    {
+      "collections": "Kurtas",
+      "location": "#"
+    },
+    {
+      "collections": "Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Vests",
+      "location": "#"
+    },
+    {
+      "collections": "Jeans & Denims",
+      "location": "#"
+    },
+    {
+      "collections": "Jackets",
+      "location": "#"
+    },
+    {
+      "collections": "Sweatshirts & Hoodies",
+      "location": "#"
+    }
+  ],
+  "mFeatured": [
+    {
+      "collections": "Featured",
+      "location": "#"
+    },
+    {
+      "collections": "Men's Flip Flops",
+      "location": "#"
+    },
+    {
+      "collections": "Men's Sliders",
+      "location": "#"
+    },
+    {
+      "collections": "Marvel T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Disney T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Avengers T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Star Wars T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Batman T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Superman T-Shirts",
+      "location": "#"
+    },
+    {
+      "collections": "Joker T-Shirts",
+      "location": "#"
+    }
+  ],
+  "bags": [
+    {
+      "collections": "BAGS",
+      "location": "#"
+    },
+    {
+      "collections": "Laptop Bags",
+      "location": "#"
+    },
+    {
+      "collections": "Small BackPacks",
+      "location": "#"
+    }
+  ],
+  "wFeatured": [
+    {
+      "collections": "Featured",
+      "location": "#"
+    },
+    {
+      "collections": "Slides",
+      "location": "#"
+    },
+    {
+      "collections": "Flip Flops",
+      "location": "#"
+    }
+  ],
+  "mobileCovers": [
+    {
+      "collections": "Brands",
+      "location": "#"
+    },
+    {
+      "collections": "Apple",
+      "location": "#"
+    },
+    {
+      "collections": "Realme",
+      "location": "#"
+    },
+    {
+      "collections": "Samsung",
+      "location": "#"
+    },
+    {
+      "collections": "Xiaomi",
+      "location": "#"
+    },
+    {
+      "collections": "Oneplus",
+      "location": "#"
+    },
+    {
+      "collections": "Vivo",
+      "location": "#"
+    },
+    {
+      "collections": "Oppo",
+      "location": "#"
+    }
+  ],
+  "success": [
+    {
+      "collections": "Fanbook",
+      "location": "#"
+    },
+    {
+      "collections": "Offers",
+      "location": "#"
+    },
+    {
+      "collections": "Sitemap",
+      "location": "#"
+    }
+  ],
+  "specialsDropDwonData": [
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/air-icon-2-1686853176.png",
+      "collection_name": "Bewakoof Air",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/icon-210x210-1687242602.jpg",
+      "collection_name": "BWKF x Harry Potter",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Circle-icon-garfield-1682010304.png",
+      "collection_name": "BWKF x Garfield",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/office-168x168-3-1681406665.png",
+      "collection_name": "The Office Merchandise",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Circle-icon-collegiate-1680866511.png",
+      "collection_name": "Campus Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Circle-icon-dotw-1669102812.png",
+      "collection_name": "Designs of the Week",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/merch-store-icon-1650380159.png",
+      "collection_name": "The Official Merch Store",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/circlenav-animeFLASHOUT-168x168-1675432697.png",
+      "collection_name": "Anime Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/new-icon--1658215268.png",
+      "collection_name": "Undrdawg by Bewakoof",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/pride-icon-circle-1655695905.png",
+      "collection_name": "Pride Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Circle-Icon-Marvel-Youth-Beat-1653558342.png",
+      "collection_name": "Marvel Youth Beat",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/batman-icon-1652639811.png",
+      "collection_name": "The Batman Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/1-1663225167.png",
+      "collection_name": "Vote for Designs",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/minion-icon-1643697213.png",
+      "collection_name": "Minions Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/me-shirt-icon--1656050998.png",
+      "collection_name": "Customize T-shirts",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Friends-Collection-Icons-168x168-1644555932.png",
+      "collection_name": "FRIENDS Collection",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Friends-Collection-Icons-168x168-1644555932.png",
+      "collection_name": "Indo Fusion",
+      "location": "#"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/nav_menu/Indo-Fusion-Icons-168x168-1644555933.png",
+      "collection_name": "Plus Size Store",
+      "location": "#"
+    }
+  ],
+  "innerwearAndLoundewear": [
+    {
+      "collections": "Vests",
+      "location": "#"
+    },
+    {
+      "collections": "Pyjamas",
+      "location": "#"
+    },
+    {
+      "collections": "Boxers",
+      "location": "#"
+    },
+    {
+      "collections": "Trunks",
+      "location": "#"
+    },
+    {
+      "collections": "Men's Briefs",
+      "location": "#"
+    }
+  ],
+  "nothing":[
+    {
+      "collections": "Nothing Phone 1",
+      "location": "#"
+    }
+  ],
+  "apple":[
+    {
+      "collections": "iPhone 13",
+      "location": "#"
+    },
+    {
+      "collections": "iPhone 14 Pro Max",
+      "location": "#"
+    },
+    {
+      "collections": "iPhone 14 Max",
+      "location": "#"
+    }
+  ],
+  "xaimoi":[
+    {
+      "collections": "Poco X4 Pro 5G",
+      "location": "#"
+    },
+    {
+      "collections": "Poco M4 5G",
+      "location": "#"
+    },
+    {
+      "collections": "Poco M4 Pro 5G",
+      "location": "#"
+    }
+  ],
+  "samsung":[
+    {
+      "collections": "Samsung Galaxy S21 fe 5G",
+      "location": "#"
+    },
+    {
+      "collections": "Samsung Galaxy S20 FE",
+      "location": "#"
+    },
+    {
+      "collections": "Samsung Galaxy Note 10 lite",
+      "location": "#"
+    }
+  ],
+  "vivo": [
+    {
+      "collections": "Vivo V25 Pro",
+      "location": "#"
+    },
+    {
+      "collections": "Vivo S1",
+      "location": "#"
+    },
+    {
+      "collections": "Vivo iQOO 11",
+      "location": "#"
+    }
+  ],
+  "realme": [
+    {
+      "collections": "Realme 10 Pro+ 5G",
+      "location": "#"
+    },
+    {
+      "collections": "Realme 10 Pro 5G",
+      "location": "#"
+    },
+    {
+      "collections": "Realme 8 5G",
+      "location": "#"
+    }
+  ],
+  "oneplusOne": [
+    {
+      "collections": "OnePlus Nord 2T 5G",
+      "location": "#"
+    },
+    {
+      "collections": "OnePlus 9R",
+      "location": "#"
+    },
+    {
+      "collections": "OnePlus Nord N20 SE",
+      "location": "#"
+    }
+  ],
+  "othersBrands":[
+    {
+      "collections": "Oppo",
+      "location": "#"
+    },
+    {
+      "collections": "Huewei",
+      "location": "#"
+    },
+    {
+      "collections": "Moto",
+      "location": "#"
+    }
+  ]
+}
+

@@ -1,0 +1,48 @@
+footer{
+     width: 100vw;
+     /* height: 100; */
+     background-color: var(--footer-color);
+     padding: 75px 0px;
+     
+}
+.footer-items-container{
+     width: 75%;
+     margin: 40px auto;
+     padding: 0px 15px;
+     /* border: 1px solid green; */
+}
+.footer-items-container .bfk-logo{
+     color: var(--bewakoof-yellow);
+     font-size: 25px;
+     /* border: 2px solid green; */
+     padding: 10px 0px;
+}
+.footer-items-container .bfk-logo .bfk-logo-r{
+     color: var(--bewakoof-yellow);
+     font-size: 15px;
+}
+li{
+     color: var(--link-color);
+     font-size: 12px;
+     padding: 1px 0px;
+}
+.footerTitle{
+     display: block;
+     color: var(--bewakoof-yellow);
+     margin: 0px 0px 30px;
+}
+
+
+.subscribe-email{
+     width: 155.65px;
+     padding: 6px 12px;
+     background-color: transparent;
+     border: none;
+     border-bottom: 2px solid var(--bewakoof-yellow);
+}
+.subscribe-btn{
+     width: 127.35px;
+     padding: 6px;
+     border: none;
+     background-color: var(--bewakoof-yellow);
+}

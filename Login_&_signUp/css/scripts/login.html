@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../login.css">
+</head>
+<body>
+    <div id="C_page">
+        <div id="Box1">
+            <div><h2 id="head">Welcome to the world of Bewakoof<sup>
+                &reg;
+            </sup>!</h2></div>
+        <div id="left_box"><img src="https://images.bewakoof.com/web/group-19-1617704502.png" alt="" id="left_image"></div>
+        </div>
+        <div id="Box2">
+            <div id="heading">
+                <div><h1 id="head_right" class="letters">Log in / Sign up</h1></div>
+            <div><p id="dis" class="letters">for Latest trends, exciting offers and everything Bewakoof®!</p></div>
+            </div>
+            <div id="icb">
+                <div class="flag_num">
+                    <select>
+                        <option value="">
+                            <img src="https://images.bewakoof.com/web/india-flag-round-1639566913.png" alt="" class="flag">
+                            <span class="font_color">+91</span>
+                        </option>
+                    </select>
+                </div>
+                <input maxlength="10" type="text" id="mobile" placeholder="Enter Mobile Number">
+            </div>
+            <div id="mob_error"></div>
+            <div id="sendCode"><button id="btn">CONTINUE</button></div>
+            <hr>
+            <div id="socials">
+                <div  class="flag_num">
+                   <button id="email" onclick="email()"> <img src="https://images.bewakoof.com/web/carbon-email-1620039620.png" alt="" class="flag">
+                    CONTINUE WITH EMAIL
+                </button>
+                </div>
+                <div id="social_media">
+                    <div class="flag_num">
+                        <button  id="google" onclick="google()">
+                        <img src="https://images.bewakoof.com/web/group-3-2x-1558356035.png" alt="" class="flag">
+                      GOOGLE
+                    </button>
+                    </div>
+                    <div  class="flag_num">
+                       <button id="facebook" onclick="facebook()">
+                        <img src="https://images.bewakoof.com/web/bi-facebook2x-1620886445.png" alt="" class="flag">
+                        FACEBOOK
+                    </button>
+                    </div>
+                </div>
+            </div>
+            <p id="terms">By creating an account or logging in, you agreee with Bewakoof,s
+                <a href="https://www.bewakoof.com/terms-and-conditions" target="_blank" class="conditions">Terms and conditions</a>
+                and
+                <a href="https://www.bewakoof.com/privacy-policy-and-disclaimer" target="_blank" class="conditions">Privacy Policy</a>
+                .
+             </p>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="./login.js"></script>

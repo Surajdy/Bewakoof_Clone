@@ -1,0 +1,207 @@
+{
+  "smallCardData": [
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-newarrivals-common-1682570370.jpg",
+      "smallDescription": "New Arrivals"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-common-bestseller-1679567164.jpg",
+      "smallDescription": "Bestseller"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-official-collab-common-1682570371.jpg",
+      "smallDescription": "Official Collaborations"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/thumbnails-Revamp-Customization--1--1693212866.jpg",
+      "smallDescription": "Customization"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/thumbnails-Revamp-Combos-1693212865.gif",
+      "smallDescription": "Combos"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/thumbnails-Revamp-Vote-1693212866.jpg",
+      "smallDescription": "Vote for Designs"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/last-size-new-thumbnaik-1668508337.jpg",
+      "smallDescription": "Last Sizes Left"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/uploads/grid/app/new-thumbnail-icon-2022-D-230x320-plus-size-common-1682570373.jpg",
+      "smallDescription": "Plus Size"
+    }
+  ],
+
+  "trendingCategories": [
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-printed-tees-m-1685445850.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-oversized-tees-m-1685086219.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-shorts-1686063035.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-joggers-m-1684997505.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-vests-1686063036.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-fullsleeve-1686063034.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-printed-tees-w-1685445851.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-Oversized-tshirts-Women-1682055634.png",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-fashion-tops-1686305660.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-Joggers-Women-1682055633.png",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-WOMEN-Dresses-1681725004.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-D-240x350-WOMEN-BoyfriendTeess-1681730084.jpg"
+  ],
+  "categoriesToBag": [
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-men-sshirts-1686063036.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-boxers-1685086219.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box--m-pyjama-1685086220.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-women-cords-1686063032.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-women-pjs-1686063033.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/category-box-new-240x350-women-shorts-1686063034.jpg"
+  ],
+  "topAccessories": [
+    "https://images.bewakoof.com/uploads/grid/app/New-category-box-180x262-mobile-covers-1692613046.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/New-category-box-180x262-sliders-1692613045.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/New-category-box-180x262-backpacks-1692613046.jpg",
+    "https://images.bewakoof.com/uploads/grid/app/New-category-box-180x262-caps-1692613045.jpg"
+  ],
+
+  "bestSellersCard": [
+    {
+      "image_url": "https://images.bewakoof.com/t1080/peace-out-astronaut-half-sleeve-t-shirt-navy-blue-302573-1655748317-1.jpg",
+      "description": "Men's Blue Peace Out Astronaut Graphic Printed T-shirt",
+      "discountedPrice": 399,
+      "actualPrice": 999,
+      "discountPercent": "60% OFF",
+      "hover-image_url": ""
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/men-s-black-across-the-spiderverse-graphic-printed-oversized-t-shirt-599566-1687765259-1.jpg",
+      "description": "Men's Black Across The Spiderverse Graphic Printed Oversized T-shirt",
+      "discountedPrice": 699,
+      "actualPrice": 1299,
+      "discountPercent": "60% OFF",
+      "hover-image_url": ""
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/men-s-black-t-shirt-106-1665669012-1.jpg",
+      "description": "Men's Blue Game Over Minimal Typography T-shirt",
+      "discountedPrice": 349,
+      "actualPrice": 999,
+      "discountPercent": "65% OFF",
+      "hover-image_url": ""
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/game-over-minimal-half-sleeve-t-shirt-navy-blue-305202-1655748497-1.jpg",
+      "description": "Men's Blue Game Over Minimal Typography T-shirt",
+      "discountedPrice": 449,
+      "actualPrice": 1099,
+      "discountPercent": "59% OFF",
+      "hover-image_url": ""
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/create-good-stories-half-sleeve-t-shirt-black-283013-1655749405-1.jpg",
+      "description": "Men's Black Create Good Stories Typography T-shirt",
+      "discountedPrice": 449,
+      "actualPrice": 1099,
+      "discountPercent": "59% OFF",
+      "hover-image_url": ""
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/inner-peace-boyfriend-t-shirt-navy-blue-295707-1661352673-1.jpg",
+      "description": "Women's Blue Inner Peace Graphic Printed Boyfriend T-shirt",
+      "discountedPrice": 399,
+      "actualPrice": 999,
+      "discountPercent": "60% OFF",
+      "hover-image_url": "https://images.bewakoof.com/t1080/inner-peace-boyfriend-t-shirt-navy-blue-295707-1661352694-5.jpg"
+    },
+    {
+      "image_url": "https://images.bewakoof.com/t1080/men-s-white-marvel-t-shirt-390747-1679048273-1.jpg",
+      "description": "Men's White Marvel Printed T-shirt",
+      "discountedPrice": 499,
+      "actualPrice": 1099,
+      "discountPercent": "54% OFF",
+      "hover-image_url": "https://images.bewakoof.com/t1080/men-s-white-marvel-t-shirt-390747-1679048295-5.jpg"
+    }
+  ],
+  "tribeOffers": [
+    {
+      "image": "https://images.bewakoof.com/web/group-8.png",
+      "heading": "Guaranteed Discounts",
+      "subheading1": "On Every Day",
+      "subheading2": "On all products. On every order."
+    },
+    {
+      "image": "https://images.bewakoof.com/web/group-4.png",
+      "heading": "Guaranteed Offer",
+      "subheading1": "On Every Day",
+      "subheading2": "On Everything you shop. No minimum purchase required."
+    },
+    {
+      "image": "https://images.bewakoof.com/web/group-5.png",
+      "heading": "Exclusive Perks",
+      "subheading1": "Offers, Cashback etc.",
+      "subheading2": "Tribe only Offers, Cashbacks, Products & Collections"
+    },
+    {
+      "image": "https://images.bewakoof.com/web/group-6.png",
+      "heading": "Early Access",
+      "subheading1": "to Sales & Collections",
+      "subheading2": "Tribe only Contests, Newsletters, Giveaways & more"
+    },
+    {
+      "image": "https://images.bewakoof.com/web/group-7.png",
+      "heading": "Exclusive Experiences",
+      "subheading1": "Contests, Newsletters",
+      "subheading2": "VIP early access to all Sales & Events."
+    }
+  ],
+  "exclusiveSaving": [
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/space-grey-hoodie-sweatshirt-women-s-plain-melange-hoodie-sweatshirt-276353-1610690636.jpg",
+      "regularPrice": 999,
+      "tribePrice": 299,
+      "saving": 161
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/solid-baby-pink-ankle-length-socks-women-s-ankle-length-socks-272290-1585286351.jpg",
+      "regularPrice": 799,
+      "tribePrice": 199,
+      "saving": 600
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/galaxy-blue--happy-yellow-shoulder-sleeve-t-shirt-women-s-plain-shoulder-sleeve-panel-regular-t-shirt-276099-1601292786.jpg",
+      "regularPrice": 1299,
+      "tribePrice": 499,
+      "saving": 800
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/chorom-lyadh-khor-lightweight-men-s-slider-black-men-s-printed-sliders-lightweight-282305-1606912676.jpg",
+      "regularPrice": 649,
+      "tribePrice": 199,
+      "saving": 450
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/french-navy-classic-polo-men-s-plain-pique-polo-273772-1595404459.jpg",
+      "regularPrice": 899,
+      "tribePrice": 299,
+      "saving": 600
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/marvel-logo-comic-printed-small-backpack-avl-printed-small-backpack-273335-1595496486.jpg",
+      "regularPrice": 1199,
+      "tribePrice": 399,
+      "saving": 800
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/black-neon-lime-contrast-collar-pique-polo-t-shirt-men-s-contrast-collar-pique-polo-271917-1595231318.jpg",
+      "regularPrice": 699,
+      "tribePrice": 199,
+      "saving": 500
+    },
+    {
+      "imageUrl": "https://images.bewakoof.com/t320/summer-vibes-blue-knitted-boxers-women-s-printed-knitted-boxers-276220-1600152258.jpg",
+      "regularPrice": 1499,
+      "tribePrice": 599,
+      "saving": 900
+    }
+  
+  ]
+}

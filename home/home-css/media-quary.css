@@ -1,0 +1,93 @@
+@media screen and (max-width: 990px) {
+
+     .header-section-for-all .topBarWrapperHeader{
+          visibility: hidden
+     }
+     .header-section-for-all .main-bar-wrapper-header {
+          justify-content: space-evenly;
+          justify-content: center;
+          height: 52px;
+          align-content: center;
+          border-bottom: 1.5px solid #CCC;
+          align-items: center;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          background-color: white;
+     }
+     .bottom-header-wrapper-container {
+          top: 52px;
+          left: 0;
+          display: block;
+     }
+     
+     .main-contect-section-of-web {
+          margin-top: 8.613rem;
+     }
+     .bottom-header-wrapper-container ul{
+          justify-content: start;
+     }
+     .bottom-header-wrapper-container ul li a{
+          font-size: 13px;
+          padding: 13px 14px;
+          text-transform: capitalize;
+     }
+     .action-icons-button  img {
+          border-radius: 50%;
+          display: none;
+     }
+     .reponsive-none{
+          display: none;
+     }
+     .fa-magnifying-glass,.bfk-eye-logo
+     {
+          display: block;
+     }
+     .side-menu-diriver  {
+          opacity: 1;
+          visibility: visible;
+          display: block;
+     }
+     .side-menu-diriver .active {
+          transform: translateX(0%);
+          opacity: 1;
+     }
+}
+
+@media screen and (max-width: 1170px) {
+     .header-section-for-all .topBarWrapperHeader{
+          justify-content: space-between;
+     }
+     .header-section-for-all .main-bar-wrapper-header{
+          justify-content: space-between;
+          padding: 0px 5px;
+     }
+     
+}
+@media screen and (max-width: 770px) {
+    footer{
+     padding: 40px 10px;
+    }
+    .footer-items-container{
+     padding: 0px 5px;
+     margin: 10px auto;
+     width: 100%;
+    }
+    .subscribe-btn{
+     margin-top: 10px;
+     width: 100px;
+    }
+    .keep-up-to-date{
+     display: none;
+    }
+    .footer-items-container{
+     font-size: 12px;
+    }
+    .swiper-button-next:after,
+     .swiper-button-prev:after{
+          padding: 7px 10px;
+          font-size: 10px;
+     }
+    
+}

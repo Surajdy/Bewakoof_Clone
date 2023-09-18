@@ -1,0 +1,304 @@
+/* 
+=================================
+          Bewakoof Offers
+=================================
+*/
+
+
+.offers-images {
+     text-align: center;
+}
+
+.offers-images>img {
+     width: 34%;
+     height: 286.6px;
+
+}
+
+.offers-images>div img {
+     width: 70%;
+     height: 286.6px;
+}
+
+/* 
+=================================
+          FanBook
+=================================
+*/
+
+.show-search-image {
+     border: none;
+     padding: 10px;
+     background-color: #47A992;
+     border-radius: 6px;
+     text-align: center;
+     margin: 15px auto;
+     display: block;
+     color: white;
+     font-size: 16px;
+     display: none;
+}
+
+.bewakoof-fans {
+     display: grid;
+     grid-template-columns: repeat(3, .8fr);
+     padding: 15px;
+     margin: auto;
+     width: 70%;
+}
+
+.bewakoof-fans img {
+     width: 99%;
+     height: 99%;
+     margin: auto;
+     background-size: cover;
+}
+
+/* 
+=================================
+          Download Apps
+=================================
+*/
+
+.row-download-apps {
+     width: 80%;
+     margin: 60px auto;
+     padding: 25px;
+}
+
+.row-download-apps img {
+     width: 22%;
+     margin: auto;
+     margin: 0px 25px 60px 25px;
+     position: relative;
+     left: 50px;
+
+}
+
+.row-download-apps img:nth-child(1) {
+     position: relative;
+     left: 150px;
+     top: 100px;
+     z-index: 999;
+}
+
+.download-app-textContent div:nth-child(1) {
+     font-size: 60px;
+     width: 50PX;
+     position: absolute;
+     top: 15%;
+     right: 44%;
+}
+
+.download-app-textContent div:nth-child(1) h1 {
+     color: #333333;
+     font-weight: 100;
+}
+
+.download-app-textContent div:nth-child(2) {
+     position: relative;
+     left: 54%;
+     top: -280px;
+}
+
+.download-app-textContent div:nth-child(2) h4 {
+     font-size: 25px;
+     color: #333333;
+     padding-bottom: 10px;
+}
+
+.download-app-textContent div:last-child {
+     position: relative;
+     left: 54%;
+     top: -200px;
+}
+
+.download-app-textContent div:last-child img {
+     width: 10%;
+     margin-right: 25px;
+
+}
+
+/* 
+=================================
+        Tribe Membership
+=================================
+*/
+body .tribe-section {
+     font-family: 'Times New Roman', Times, serif;
+     margin-top: 5%;
+}
+
+.tribe-header {
+     height: 420.62px;
+
+}
+
+.bewakoof-tribe-logo {
+     text-align: center;
+     background-color: var(--bewakoof-yellow);
+}
+
+.bewakoof-tribe-logo img {
+     width: 30%;
+     position: relative;
+     top: 25%;
+     right: 6%;
+}
+
+.bewakoof-tribe-logo h4 {
+     font-size: 20px;
+     position: relative;
+     top: 28%;
+     font-weight: 100;
+}
+
+.bfk-tribe-offers {
+     background-color: var(--header-search-bar);
+     padding: 20px 130px;
+
+}
+
+.bfk-tribe-offers div {
+     /* gap: 25px; */
+     margin: 30px 30px 30px 0px;
+}
+
+.btn-container {
+     width: 77.25%;
+     height: 193px;
+     margin: 5% auto 1% auto;
+     text-align: center;
+     padding: 60px 0px 0px;
+}
+
+.btn-container .btn-pickaplane {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 15px;
+
+}
+
+.btn-container .btn-pickaplane button {
+     border: none;
+     background-color: var(--bewakoof-yellow);
+     display: block;
+     margin: auto;
+     align-items: center;
+     justify-content: center;
+     margin: 0px auto;
+     padding: 14px 132px;
+     border-radius: 5px;
+}
+
+.why-tribe-container {
+     padding: 55px 15px 60px;
+     background-color: var(--header-search-bar);
+}
+
+.whyTribe-items {
+     width: 78%;
+     /* background-color: green; */
+     margin: auto;
+}
+
+
+.why-tribe-container .whyTribe-items div:nth-child(1) h4,
+.why-tribe-container .whyTribe-items div:nth-child(1) p,
+.tribe-heading-container div:nth-child(1) h4,
+.tribe-heading-container div:nth-child(1) p,
+.fqa-tribe-container>h4,
+.fqa-tribe-container>p {
+     font-size: 24px;
+     margin-bottom: 5px;
+     font-family: 'Times New Roman', Times, serif;
+
+}
+
+.why-tribe-container ul {
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+}
+
+.why-tribe-container ul li {
+     width: 90%;
+}
+
+.tribe-heading-container {
+     width: 77%;
+     height: 500px;
+     margin: 55px auto;
+     padding: 15px;
+
+}
+
+.tribeSwipper .swiper-slide {
+     margin-bottom: 25px;
+}
+
+.tribeSwipper .swiper-slide>img {
+     width: 100%;
+}
+
+/* 
+======================================
+               FQAs Design
+======================================
+*/
+
+.fqa-tribe-container {
+     width: 77%;
+     margin: 10% auto
+}
+
+.fqa-tribe-container {
+     width: 77%;
+     margin: 10% auto;
+}
+
+.accordion li {
+     background-color: #fff;
+     padding: 10px;
+     width: 100%;
+     border-radius: 4px;
+     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+     margin: 5px auto;
+}
+
+.accordion li label {
+     padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 14px;
+     cursor: pointer;
+}
+
+.accordion li label span {
+     transform: rotate(90deg);
+     font-size: 22px;
+}
+
+.accordion label+input[type="radio"] {
+     display: none;
+}
+
+.accordion .answer-tribe {
+     padding: 0px 10px;
+     line-height: 28px;
+     max-height: 0;
+     visibility: hidden;
+     transition: max-height 0.5s;
+}
+
+.accordion label+input[type="radio"]:checked+.answer-tribe {
+     max-height: 400px;
+     visibility: visible;
+}
+
+.success-color {
+     color: green;
+     text-decoration: underline;
+}

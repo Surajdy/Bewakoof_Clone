@@ -1,0 +1,434 @@
+/* =======================================
+          Root Color Variables 
+==========================================
+*/
+:root {
+     --top-header-bg: #EEEEEE;
+     --top-header-text-color: #000000CC;
+     --header-search-bar: #EAEAEA;
+     --main-header-drop-down-menu: #000000E6;
+     --bewakoof-yellow: #FDD835;
+     --bottom-header-text-color: #0E0E0E;
+     --web-scroll-bar: #DDE6ED;
+     --h2-p-description: #737373;
+     --h3-p-name: #4f5362;
+     --p-green: #00B852;
+     --text-teal: #42A2A2;
+     --link-color: #FFFFFFE6;
+     --footer-color: #181818;
+     --success-text-color: #51CCCC;
+     --mega-blk: #494949;
+     --mega-link-blk: #7f7f7f;
+}
+
+/* =======================================
+          Swiper Button Design 
+==========================================
+*/
+.swiper-button-next:after,
+.swiper-button-prev:after {
+     font-size: 19px;
+     left: 50px;
+     color: #000;
+     background-color: hsla(0, 0%, 100%, .4);;
+     opacity: .5px;
+     padding: 14px 19px;
+     width: 40px;
+     margin: 0px 25px;
+     top: calc(50% - 25px);
+     z-index: 5;
+
+     border-radius: 50%;
+     text-align: center;
+}
+
+#secondOne .swiper-pagination-bullet {
+     height: 4px;
+     width: 22px;
+     border-radius: 25px;
+     background-color: var(--bewakoof-yellow);
+}
+
+/* =======================================
+          Font Awesom Icon
+==========================================
+*/
+i {
+     font-size: 20px;
+     margin: 5px 5px 0px 0px;
+     color: var(--h3-p-name);
+}
+
+
+/* =======================================
+          Separator For Dividing 
+==========================================
+*/
+.separator {
+     margin: 2.5% 0px 2.5% 0%
+}
+
+.separator2 {
+     width: 1px;
+     height: auto;
+     background-color: #ccc;
+     margin: 10px 0;
+}
+/* =======================================
+          Display Property Flex
+==========================================
+*/
+.d-flex {
+     display: flex;
+}
+
+.d-block {
+     display: block;
+}
+.d-none {
+     display: none;
+}
+
+.d-flex-between {
+     justify-content: space-between;
+}
+
+.d-flex-around {
+     justify-content: space-around;
+}
+
+.d-flex-evenly {
+     justify-content: space-evenly;
+}
+
+.d-flex-jcenter {
+     justify-content: center;
+}
+
+.flex-col {
+     flex-direction: column;
+}
+.flex-center {
+     justify-content: center;
+}
+
+/* =======================================
+          Display Property Grid
+==========================================
+*/
+
+.grid2-1fr {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+}
+
+.grid6-1fr {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+}
+.grid8-1fr {
+     display: grid;
+     grid-template-columns: repeat(8, 1fr);
+}
+
+.grid4-1fr {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+}
+
+.gap-r0-c5 {
+     gap: 0px 5px
+}
+
+.overflow {
+     overflow: hidden;
+}
+
+/* =======================================
+          Font Transitions
+==========================================
+*/
+
+.uppercase {
+     text-transform: uppercase;
+}
+
+.text-transform-none {
+     text-transform: none;
+}
+
+.underline-text {
+     text-decoration: underline;
+}
+
+.line-through-text {
+     text-decoration: line-through;
+}
+
+/* 
+=========================================
+          Image Width
+==========================================
+*/
+.image100width {
+     width: 100%;
+     margin: auto;
+}
+
+.width40px {
+     height: 40px;
+     width: 40px;
+}
+.width30px {
+     height: 30px;
+     width: 30px;
+}
+
+.img100px {
+     width: 100%;
+     background-size: cover;
+}
+
+.img30per {
+     width: 30%;
+     background-size: cover;
+}
+
+.img50px {
+     width: 50%;
+     background-size: cover;
+}
+
+.img100px-radius-4 {
+     border-radius: 4px 4px 0px 0px;
+}
+.img100px-radius-all4 {
+     border-radius: 4px;
+}
+
+.text-align-center {
+     text-align: center;
+}
+
+.text-align-justify {
+     text-align: justify;
+}
+
+.text-align-strat {
+     align-items: start;
+}
+.align-center {
+     align-items: center;
+}
+/* 
+=========================================
+          Collors 
+==========================================
+*/
+
+.p-balck {
+     color: var(--bottom-header-text-color);
+}
+
+.shade-gray {
+     color: var(--h2-p-description);
+}
+
+.discount-green {
+     color: var(--p-green);
+}
+
+.bfk-black {
+     color: var(--h3-p-name);
+}
+
+.color-teal {
+     color: #42A2A2;
+}
+
+.mega-blk {
+     color: var(--mega-blk);
+}
+
+.mega-link {
+     color: var(--mega-link-blk);
+}
+.bg-dimwhite{
+     background-color: var(--top-header-bg);
+}
+
+/* ========== Fonts Utils ============== */
+.font16px {
+     font-size: 16px;
+}
+
+.font12px {
+     font-size: 12px;
+}
+
+.font10px {
+     font-size: 10px;
+}
+
+.font20px {
+     font-size: 20px;
+}
+
+.font14px {
+     font-size: 14px;
+}
+.font48px {
+     font-size: 48px;
+}
+
+/* ============= Font Weight ================= */
+.font-weight-6 {
+     font-weight: 600;
+}
+
+/* Margin  */
+.left5px {
+     margin-left: 5px;
+}
+
+.mr-20px {
+     margin: 0px 0px 1.25rem;
+}
+.mrAuto {
+     margin: auto;
+}
+
+.mr-12px {
+     margin: 0px 0px .75rem;
+}
+
+.top4px {
+     margin-top: 4px;
+}
+.top10px {
+     margin-top: 1.5rem;
+}
+
+.top3rem {
+     margin-top: 3rem;
+}
+
+.top3px {
+     margin-top: 3px;
+}
+
+.tb-mar10px {
+     margin: 10px 0px;
+}
+
+
+.right8px {
+     margin-right: 8px;
+}
+
+.mr-8px {
+     margin: 8px 0px 0px 0px;
+}
+
+.mr-10rem {
+     margin: 0.625rem 0px;
+}
+
+.mr-2rem {
+     margin: 2rem 0px;
+}
+
+.mr-30rem {
+     padding: 30px 0px;
+}
+
+.pd-15px {
+     padding: 15px;
+}
+.pdtb-15px {
+     padding:  15px 0px;
+}
+.pdtb-10px {
+     padding:  10px 0px;
+}
+
+.pd-10-15px {
+     padding: 10px 15px;
+}
+
+.pd-0-30-0-0px {
+     padding: 0px 30px 0px 0px;
+}
+.pd5px {
+     padding: 5px;
+}
+.pd20trpx {
+     padding: 20px 10px 0px 20px;
+}
+.pd-50pxR {
+     padding: 0px 0px 50px 0px;
+}
+.pd-20pxR {
+     padding-right: 20px;
+}
+
+.defaultpm {
+     margin: 0;
+     padding: 0;
+}
+
+/* Colors Class */
+
+.link-color {
+     color: var(--link-color);
+}
+
+.success-color {
+     color: var(--success-text-color);
+}
+
+.fa-brands {
+     color: var(--link-color);
+     font-size: 17px;
+     padding: 2px;
+}
+
+.fa-solid {
+     /* color: var(--link-color); */
+     /* color: green; */
+     font-size: 10px;
+     padding: 2px;
+}
+
+.witdh15_813rem {
+     width: 15.813rem;
+}
+
+.witdh11_813rem {
+     width: 16.5rem;
+}
+
+.witdh285px {
+     width: 17.813rem;
+}
+
+.width224px {
+     width: 224.6px;
+}
+
+span {
+     text-transform: uppercase
+}
+
+.debug {
+     border: 2px solid blue;
+}
+
+.position-abs {
+     position: absolute;
+     top: 0;
+     right: -120%;
+}
+.bfk-eye-logo i{
+     font-size: 25px;
+}

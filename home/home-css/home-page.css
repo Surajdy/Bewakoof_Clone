@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@800&family=Montserrat:wght@500&family=Poppins:wght@300&family=Prompt&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+     font-family: 'Montserrat', sans-serif;
+     color: black;
+     /* text-align: center; */
+}
+
+::-webkit-scrollbar {
+     width: .3rem;
+}
+
+::-webkit-scrollbar-thumb {
+     background-color: darkgrey;
+     height: 5px;
+     border-radius: 2rem;
+     border: .5rem solid transparent;
+}
+
+::-webkit-scrollbar-thumb:hover {
+     background-color: #64CCC5;
+}
+
+::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body {
+     width: 100%;
+     overflow-x: hidden;
+     height: 100vh;
+}
+/* ----------------------------------------------------------------- */
+/*  header section for all*/
+.header-section-for-all {
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     z-index: 100;
+     position: relative;
+
+}
+
+/* Top Bar Section */
+
+
+
+.header-section-for-all .topBarWrapperHeader {
+     justify-content: space-evenly;
+     align-items: center;
+     height: 26.8px;
+     background: var(--top-header-bg);
+     width: 100%;
+     /* padding: 0px 10%; */
+     position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
+}
+
+.header-section-for-all .topBarWrapperHeader a {
+     margin: 0.4rem;
+     font-size: 0.65rem;
+     color: var(--top-header-text-color);
+     /* margin: 0px 5rem; */
+}
+
+.header-section-for-all .topBarWrapperHeader a i {
+     font-size: 1em;
+     margin-right: 0.5rem;
+}
+
+/* Main bar */
+.header-section-for-all .main-bar-wrapper-header {
+
+     justify-content: space-evenly;
+     height: 52px;
+     align-content: space-between;
+     border-bottom: 1.5px solid #CCC;
+     align-items: center;
+     position: fixed;
+     top: 26.8px;
+     left: 0;
+     width: 100%;
+     background-color: white;
+}
+
+.header-section-for-all .main-bar-wrapper-header .bewakoof-logo-container {
+     /* padding: 0px 9px; */
+     margin: auto;
+}
+
+.header-section-for-all .logo-and-menu-items {
+
+     /* justify-content: space-between;  */
+     align-items: center;
+}
+
+.header-section-for-all .main-bar-wrapper-header .bewakoof-logo-container img {
+     width: 147px;
+     /* height: 20px; */
+     margin: 0px 0px 5px;
+}
+
+/* .header-section-for-all .main-bar-wrapper-header .logo-and-menu-items .bewakoof-logo-container a {
+     
+} */
+
+.header-section-for-all .main-bar-wrapper-header .logo-and-menu-items .dropDwonMenuWrapper {
+
+     align-items: center;
+     height: 3.25rem;
+     /* width: 30.469rem; */
+     text-align: center;
+     margin: auto;
+}
+
+.header-section-for-all .main-bar-wrapper-header .dropDwonMenuWrapper span {
+     font-size: 13px;
+     display: flex;
+     align-items: center;
+     height: 2.813rem;
+     text-align: center;
+     padding: 0px 11px;
+     /* text-transform: uppercase; */
+     color: var(--main-header-drop-down-menu);
+     /* position: relative; */
+
+}
+
+.header-section-for-all .main-bar-wrapper-header .dropDwonMenuWrapper>span:hover {
+     border-bottom: 5px solid gold;
+     transition: all .10s ease;
+     margin-top: 10px;
+     cursor: pointer;
+     /* display: block; */
+}
+
+.header-section-for-all .main-bar-wrapper-header .dropDwonMenuWrapper>span:hover .container-dropDwonMenu-Wrapper {
+     display: block;
+}
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons {
+
+     justify-content: space-evenly;
+}
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons .search-input-form-control {
+
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     width: 16.844rem;
+     /* height: 40px; */
+     max-width: 100%;
+     margin: auto;
+     margin-right: 1rem;
+     padding: 8px ;
+     position: relative;
+     background-color: #EAEAEA;
+}
+
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons .search-input-form-control input {
+     border: none;
+     outline: none;
+     /* position: absolute; */
+     left: 5px;
+     width: 100%;
+     font-size: 10px;
+     padding: 5px 5px 5px 15px;
+     background-color: transparent;
+}
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons .search-input-form-control i {
+     display: flex;
+     align-items: center;
+     left: 3.125rem;
+     top: 1rem;
+     text-align: center;
+     font-size: 15px;
+     padding-left: 5px;
+}
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons .action-icons-button {
+     align-items: center;
+}
+
+.header-section-for-all .main-bar-wrapper-header .search-input-and-action-icons .action-icons-button i {
+     margin: 0px 10px;
+     font-size: 1.2rem;
+     /* color: green; */
+     /* margin: 0px 2px; */
+}
+
+ .action-icons-button  img {
+     border-radius: 50%;
+     width: 30px;
+     /* border: 2PX saddlebrown solid; */
+}
+
+/* Bottom bar */
+.bottom-header-wrapper-container {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: white;
+     position: fixed;
+     top: 78.8px;
+     left: 0;
+     right: 0;
+     z-index: 999;     
+}
+
+.bottom-header-wrapper-container ul {
+     display: flex;
+     justify-content: center;
+     margin: auto;
+}
+
+.bottom-header-wrapper-container ul li {
+     padding: 0px 10px;
+     display: flex;
+}
+
+.bottom-header-wrapper-container ul li a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 17px;
+     text-transform: uppercase;
+     color: var(--bottom-header-text-color);
+     padding: 21px 24px;
+     white-space: nowrap;
+
+}
+/* ----------------------------------------------------- */
+
+
+
+
+.main-contect-section-of-web {
+     width: 100%;
+     margin-top: 8.613rem;
+     margin: 8.613rem,  auto;
+     /* border: 2px solid green; */
+}
+
+.main-contect-section-of-web .slider-swiper-first-container .first-swiper-slider .swiper-wrapper .swiper-slide .img-box-slider img {
+    width: 100%;
+     /* border: 1px solid red; */
+    overflow: hidden;
+     z-index: 1;
+}
+
+.small-card-section {
+     display: flex;
+     justify-content: center;
+     margin: 20px auto;
+     font-size: 11px;
+     text-align: center;
+     color: black;
+     gap: 25px;
+     width: 100%;
+     padding: 0px 0px 35px 0px;
+     height: 50%;
+}
+
+.small-card-section a li img {
+     width: 125px;
+     height: 173.91px;
+     margin: auto;
+}
+
+.small-card-section a li p {
+     margin: 19px 0px 0px;
+
+}
+
+
+.secondSlider .swiper-wrapper .swiper-slide img {
+     width: 100%;
+}
+
+.top-accessories {
+     margin-top: 15px;
+}
+
+/* =========== Best Seller =========== */
+#bestSeller {
+     padding: 0px 15px;
+     background-image: url(https://images.bewakoof.com/web/bg-web-mc-land-page.svg);
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.thirdSlider {
+     margin-top: 1.563rem;
+}
+
+#bestSellerCard {
+     /* margin-left: 0px 15px; */
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color: white;
+}
+
+#bestSellerCard>img {
+     width: 100%;
+     height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+#bestSellerCard .producDetails {
+     height: 5.125rem;
+     padding: 0px 8px;
+     display: block;
+     flex-wrap: wrap;
+}
+
+#bestSellerCard .producDetails .productPriceBox {
+     margin-top: 1.25rem;
+     /* margin: .5rem auto; */
+}
+
+#bestSellerCard .producDetails .product-name {
+     height: 31px;
+}
+
+#bestSellerCard .producDetails .product-name {
+     height: 31px;
+}
+
+
+
+/* background-image: url(https://images.bewakoof.com/web/bg-web-mc-land-page.svg); */
+
+.container-dropDwonMenu-Wrapper {
+     width: 100vw;
+     display: none;
+     position: absolute;
+     top: 100%;
+     left: 0;
+     z-index: 999;
+
+}
+
+.container-dropDwonMenu-Wrapper .dropDwon-collection-container::-webkit-scrollbar {
+     width: 0em;
+}
+
+.container-dropDwonMenu-Wrapper .dropDwon-collection-container {
+     width: 76%;
+     height: 80vh;
+     background-color: white;
+     margin: auto;
+     /* z-index: 999; */
+     overflow: auto;
+     padding: 40px;
+     font-family: sans-serif;
+     text-align: start;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#mega-special {
+     text-overflow: ellipsis;
+     margin-right: 25px;
+     text-align: start;
+
+}
+.eye-bfk img{
+     height: 16px;
+     width: 40px;
+     margin-top: 5px;
+}
+/* 
+=============================================
+          Login When Size Small
+=============================================
+*/
+.side-menu-diriver {
+     width: 16.875rem;
+     height: 100vh; 
+     z-index: 999;
+     background-color: white;
+     position: fixed;
+     top: 0; 
+     left: 0; 
+     border-radius: 5px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     overflow: auto;
+     transform: translateX(-100%);
+     transition: all .25s linear;
+     opacity: 0;
+     visibility: hidden;
+     display: none;
+}
+.country-selection i{
+     font-size: 16px;
+}
+.side-menu-diriver::-webkit-scrollbar{
+    width: 0em;
+}
+.side-menu-features p{
+  
+     color: var(--mega-link-blk);
+}
+.side-menu-diriver.active {
+     transform: translateX(0%); /* Slide in from the left */
+}
+
+.overlay  {
+     display: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: brown; /* Semi-transparent black background */
+     z-index: 1; /* Below the side menu, but above the rest of the content */
+ }
+ .side-menu-active {
+     overflow: hidden; /* Prevent scrolling when side menu is open */
+     opacity: 0.7; /* Reduce body opacity */
+ }
+ .search-feild-popup::-webkit-scrollbar{
+     width: 0;
+ }
+.search-feild-popup{
+     width: 22%;
+     /* background-color: #4f5362; */
+     height: 250px;
+     position: fixed;
+     top: 78.8px;
+     right: 25%;
+     overflow: auto;
+     display: none;
+     border: 1px solid #ccc;
+     background-color: white;
+     z-index: 900;
+     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+/* CSS to center the loading animation */
+.loading-container {
+     position: fixed;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     height: 100%;
+     z-index: 9999;
+     top: 30px;
+ }
+ 
+ .loading-container img {
+     display: block;
+     margin: auto;
+     width: 120px;
+     /* height: 150px; */
+     padding: 7px 10px;
+     background-color: white;
+     border-radius: 10px;
+ }
+ 

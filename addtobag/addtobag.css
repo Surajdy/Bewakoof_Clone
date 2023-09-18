@@ -1,0 +1,170 @@
+#container {
+    height: 800px;
+    width: 90%;
+    /* border: 1px solid red; */
+    margin: auto;
+  }
+  #home {
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .homediv {
+    /* border: 1px solid red; */
+    width: 50px;
+    font-size: 15px;
+  }
+  .MenClothing {
+    font-size: 15px;
+    /* border: 1px solid red; */
+  }
+  #tshirtphoto {
+    /* border: 1px solid red; */
+    height: 69%;
+    width: 29%;
+    margin-left: 220px;
+    margin-top: 35px;
+  }
+  .photo {
+    width: 100%;
+    height: 550px;
+  }
+  .productdetail {
+    /* border: 1px solid red; */
+    height: 92%;
+    width: 100%;
+    display: flex;
+    gap: 45px;
+  }
+  .detail {
+    /* border: 1px solid red; */
+    width: 35%;
+    margin-top: 19px;
+  }
+  .head {
+    margin-bottom: 0px;
+  }
+  .proline {
+    color: rgb(34, 33, 33);
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 18px;
+  }
+  .rating {
+    height: 45px;
+    width: 200px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .pricedetail {
+    /* border: 1px solid red; */
+    height: 34px;
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-bottom: 0x; */
+    display: flex;
+    justify-content: space-between;
+  }
+  .pricede {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 0px;
+  }
+  .strike {
+    color: grey;
+    /* border: 1px solid red; */
+    width: 20%;
+    font-size: 25px;
+  }
+  .strikecut {
+    margin-top: 1px;
+  }
+  .offer {
+    /* border: 1px solid red; */
+    color: red;
+    width: 50%;
+    font-size: 20px;
+    padding-top: 2px;
+  }
+  .taxes {
+    font-size: 15px;
+    margin-top: 0px;
+    color: grey;
+  }
+  .tribe {
+    width: 95%;
+  }
+  .size {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .allsizesbutton {
+    /* border: 1px solid red; */
+    height: 60px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 10px;
+  }
+  .btn {
+    /* border: 1px solid red; */
+    width: 60px;
+  }
+  .clothsizebtn {
+    height: 55px;
+    width: 58px;
+    color: teal;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+  }
+  .addtobag {
+    /* border: 1px solid red; */
+    height: 55px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .clothsizebtn1 {
+    height: 55px;
+    width: 69px;
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(212, 204, 204);
+    border: 2px solid #42a2a2;
+    margin-right: 10px;
+    
+  }
+  .addtobagbtn {
+    /* border: 1px solid red; */
+    height: 55px;
+    width: 115%;
+    border-radius: 10px;
+    background-color: rgb(56, 170, 170);
+    color: white;
+    border: 2px solid #42a2a2;
+    padding: 10px 100px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  .line {
+    margin-top: 30px;
+  }
+  .policy {
+    font-weight: bold;
+    width: 100%;
+    height: 58px;
+    border: 0;
+    border: transparent;
+  }
+  @media only screen and(min-width:421px) and (max-width: 720px) {
+  }
+  
+  .clothsizebtn:hover{
+    border: 3px solid #42a2a2;
+  }
