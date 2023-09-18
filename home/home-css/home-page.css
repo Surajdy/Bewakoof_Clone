@@ -344,7 +344,6 @@ body {
 
 .container-dropDwonMenu-Wrapper {
      width: 100vw;
-     /* background-color: #4f5362; */
      display: none;
      position: absolute;
      top: 100%;
@@ -359,7 +358,7 @@ body {
 
 .container-dropDwonMenu-Wrapper .dropDwon-collection-container {
      width: 76%;
-     height: 90vh;
+     height: 80vh;
      background-color: white;
      margin: auto;
      /* z-index: 999; */

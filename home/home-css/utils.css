@@ -70,7 +70,7 @@ i {
 
 .separator2 {
      width: 1px;
-     height: 100vh;
+     height: auto;
      background-color: #ccc;
      margin: 10px 0;
 }

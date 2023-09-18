@@ -6,7 +6,7 @@ const imageContainer = document.querySelector('.bewakoof-fans')
 const showMore = document.createElement('button')
 showMore.innerHTML = "Show more"
 
-let page = 5;
+let page = 1;
 async function searchImages() {
 
      const inputData = 'Random People'
@@ -20,7 +20,7 @@ async function searchImages() {
 
      results.map((result) => {
          const imege = document.createElement('img');
-         imege.src = result.urls.small_s3;
+         imege.src = result.urls.small;
          imageContainer.append(imege)
          console.log(result);
      })
