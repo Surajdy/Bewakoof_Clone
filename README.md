@@ -6,7 +6,7 @@ https://spectacular-gecko-caaf10.netlify.app/index.html
 
 
 # Bewakoof_Clone
-Bewakoof.com is an E-Commerce website, where could buy a varities of clothes of different category. This is the Clone of Bewakoof.com which was given by Masai school during the unit-4 curriculm. We are 5 members in the project team Suraj,Salman,Abhay,Rishik and Ashutosh We hae taken the challenge to complete the project in 5 days and successfully completed in in a deadline time..
+Bewakoof.com is an E-Commerce website, where could buy a varities of clothes of different category. This is the Clone of Bewakoof.com which was given by Masai school during the unit-4 curriculm. We are 5 members in the project team Suraj,Salman,Abhay,Rishik and Ashutosh We have taken the challenge to complete the project in 5 days and successfully completed in in a deadline time..
 
 # Built with
 HTML CSS JS 
