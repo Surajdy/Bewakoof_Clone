@@ -16,6 +16,11 @@ HTML CSS JS
 Functionalities Added
 Responsiveness in landing page Implemented search functionalities in landing page Added Signup and Login functionalities/validations Sorting functionality according to Price Filter product according to our category Functionality to add a product to wishlist and cart Functionality to make a payment Added booking success display functionality Implemented all the above said functionalities using LocalStorage, and enhanced dynamic flow of all data
 
+# Home Page:
+###
+![Untitled](https://github.com/Surajdy/Wingscollaboration/assets/112762975/061b012f-113c-4e42-adbf-e31f49564811)
+
+
 # Tech-Stack
 HTML CSS JS 
 
